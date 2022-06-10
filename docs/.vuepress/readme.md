@@ -1,5 +1,3 @@
-[![GitHub stars](https://img.shields.io/github/stars/teamssix/twiki)](https://github.com/teamssix/twiki)  [![](https://img.shields.io/badge/T%20Wiki%20-%E4%BA%91%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86%E6%96%87%E5%BA%93-blue)](https://wiki.teamssix.com/) [![](https://img.shields.io/badge/%E7%8B%BC%E7%BB%84%E5%AE%89%E5%85%A8%E5%9B%A2%E9%98%9F-%E7%9F%A5%E8%AF%86%E6%96%87%E5%BA%93-blue)](https://wiki.wgpsec.org/) [![](https://img.shields.io/badge/PeiQi-%E7%9F%A5%E8%AF%86%E6%96%87%E5%BA%93-blue)](http://wiki.peiqi.tech/) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/teamssix.svg?style=social&label=Follow%20the%20author)](https://twitter.com/teamssix) [![img](https://img.shields.io/github/followers/TeamsSix?style=social)](https://github.com/teamssix)
-
 ## 前言
 
 `T Wiki` 是一个面向云安全方向的知识库，这一点是和其他文库最大的不同，也许这是国内第一个云安全知识文库？
@@ -37,5 +35,6 @@
 相信通过这些资料能够在一定程度上帮助想要学习或者正在学习云安全的人，同时也欢迎读者一起来完善这个文库，从而帮助到更多的人，一起助力国内云安全的发展。
 
 >  更多信息欢迎关注我的个人微信公众号：TeamsSix
+>
 
 ![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202204152148071.png)
