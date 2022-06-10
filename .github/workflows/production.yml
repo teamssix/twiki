@@ -21,8 +21,8 @@ jobs:
       - run: sed -i 's/VSSUECLIENTSECRET/${{ secrets.VSSUECLIENTSECRET }}/g' docs/.vuepress/config.js
       - run: yarn install
       - run: yarn docs:build
-      - run: copy LICENSE docs/.vuepress/dist/
-      - run: copy robots.txt docs/.vuepress/dist/
+      - run: cp LICENSE docs/.vuepress/dist/
+      - run: cp robots.txt docs/.vuepress/dist/
 
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
