@@ -7,7 +7,7 @@ title: 挂载宿主机 procfs 逃逸
 
 ---
 
-# 前言
+## 前言
 
 procfs是一个伪文件系统，它动态反映着系统内进程及其他组件的状态，其中有许多十分敏感重要的文件。因此，将宿主机的procfs挂载到不受控的容器中也是十分危险的，尤其是在该容器内默认启用root权限，且没有开启User Namespace时。
 
@@ -17,7 +17,7 @@ Docker默认情况下不会为容器开启 User Namespace
 
 一般情况下不会将宿主机的 procfs 挂载到容器中，然而有些业务为了实现某些特殊需要，还是会有这种情况发生。
 
-# 搭建
+## 搭建
 
 创建一个容器并挂载 /proc 目录
 
@@ -25,7 +25,7 @@ Docker默认情况下不会为容器开启 User Namespace
 docker run -it -v /proc/sys/kernel/core_pattern:/host/proc/sys/kernel/core_pattern ubuntu
 ```
 
-# 检测
+## 检测
 
 如果找到两个 core_pattern 文件，那可能就是挂载了宿主机的 procfs 
 
@@ -35,7 +35,7 @@ find / -name core_pattern
 
 <img width="700" src="/img/1650013377.png">
 
-# 复现
+## 复现
 
 找到当前容器在宿主机下的绝对路径
 

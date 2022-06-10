@@ -1,6 +1,7 @@
-
+node_modules
 assets/.DS_Store
 CloudService/.DS_Store
 CloudNative/.DS_Store
 img/.DS_Store
 .DS_Store
+yarn.lock

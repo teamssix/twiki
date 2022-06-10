@@ -69,8 +69,15 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
                     src="/img/1651917214.png"  style="width: 100px;" /><br />da Vinci【达文西】</a></td>
         <td align="center"><img alt="tanger"
                     src="/img/1653815174.png"  style="width: 100px;" /><br />tanger</a></td>
+				<td align="center"><img alt="想走安全的小白"
+                    src="/img/1654852861.png"  style="width: 100px;" /><br />想走安全的小白</a></td>
     </tr>
+		<tr>
+        <td align="center"><img alt="Esonhugh"
+                    src="/img/1654854214.png"  style="width: 100px;" /><br />Esonhugh</a></td>
+		</tr>
 </table>
+
 
 
 

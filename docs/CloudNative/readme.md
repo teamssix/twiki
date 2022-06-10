@@ -5,9 +5,9 @@ title: 云原生
 
 ---
 
-# 0x01 一些名词介绍
+## 0x01 一些名词介绍
 
-## 容器
+### 容器
 
 Docker 是一个开放源代码软件，是一个开放平台，用于开发应用、交付（shipping）应用、运行应用。Docker允许用户将基础设施（Infrastructure）中的应用单独分割出来，形成更小的颗粒（容器），从而提高交付软件的速度。
 
@@ -19,7 +19,7 @@ Docker 容器与虚拟机类似，但二者在原理上不同，容器是将操�
 
 <img width="700" src="/img/1649947060.png">
 
-## 容器编排
+### 容器编排
 
 容器编排（Container Orchestration）是指自动化容器的部署、管理、扩展和联网，容器编排可以为需要部署和管理成百上千个 Linux 容器和主机的企业提供便利。
 
@@ -31,19 +31,19 @@ Docker 容器与虚拟机类似，但二者在原理上不同，容器是将操�
 
 图片来源：https://dig.sysdig.com/c/pf-2021-container-security-and-usage-report?x=u_WFRi&utm_source=gated-organic&utm_medium=website
 
-## 无服务
+### 无服务
 
 无服务（Serverless）是一种云原生开发模型，可使开发人员专注构建和运行应用，这并不是说没有服务器，而是说开发者不用去管服务器只负责开发就行。
 
 无服务计算产品通常被分为两类，分别是后端即服务（BaaS）和函数即服务（FaaS），其中 FaaS 是 Serverless 的主要实现方式，FaaS 的相关产品主要有 AWS 的 Lambda、Azure 的  Functions Serverless Compute、GCP 的 Firebase Cloud Functions、阿里云的 Function Compute 等。
 
-## 微服务
+### 微服务
 
 微服务（Microservices）是一种软件架构风格，它是以专注于单一责任与功能的小型功能区块为基础，利用模块化的方式组合出复杂的大型应用程序，各功能区块使用与语言无关的API集相互通信。
 
 这个是 Wiki 上给出的定义，如果具体的想了解微服务是什么可以看知乎上的这个帖子：https://www.zhihu.com/question/65502802
 
-## 服务网格
+### 服务网格
 
 服务网格（Service Mesh）用于控制应用的不同部分之间如何共享数据，服务网格内置于应用程序中的专用基础架构层，这个可见的基础架构层可以记录应用的不同部分是否能正常交互。
 
@@ -53,7 +53,7 @@ Docker 容器与虚拟机类似，但二者在原理上不同，容器是将操�
 
 <img width="800" src="/img/1649948493.png">
 
-## CNCF
+### CNCF
 
 CNCF (Cloud Native Computing Foundation) 云原生计算基金会，于 2015 年7月21日成立，隶属于 Linux 基金会，CNCF 的口号是坚持和整合开源技术来编排容器作为微服务架构的一部分。
 
@@ -63,9 +63,9 @@ CNCF 是一个孵化、运营云原生生态的中立组织，CNCF 对于云原�
 
 ![](/img/1649948478.png)
 
-# 0x02 云原生安全
+## 0x02 云原生安全
 
-## 云原生
+### 云原生
 
 云原生（Cloud Native）可以拆分成「云」和「原生」去看。
 
@@ -91,7 +91,7 @@ CNCF 对于云原生的见解为：
 
 - 无服务模型
 
-## 云原生安全
+### 云原生安全
 
 在介绍完云原生后，云原生安全就变得容易理解了，云原生安全至少包含了微服务安全、无服务安全、编排平台安全、服务网格安全、容器安全、宿主机安全等等。
 

@@ -10,7 +10,7 @@ title: 挂载 Docker Socket 逃逸
 
 Docker Socket 用来与守护进程通信即查询信息或者下发命令。
 
-# 搭建
+## 搭建
 
 创建一个容器并挂载 /var/run/docker/sock 文件
 
@@ -27,7 +27,7 @@ apt-get install curl
 curl -fsSL https://get.docker.com/ | sh
 ```
 
-# 检测
+## 检测
 
 ```plain
 ls -lah /var/run/docker.sock
@@ -35,7 +35,7 @@ ls -lah /var/run/docker.sock
 
 如果存在这个文件，说明漏洞可能存在
 
-# 复现
+## 复现
 
 在容器内部创建一个新的容器，并将宿主机目录挂载到新的容器内部
 

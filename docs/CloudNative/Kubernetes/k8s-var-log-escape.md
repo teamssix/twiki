@@ -7,7 +7,7 @@ title: k8s 下挂载 /var/log 逃逸
 
 ---
 
-# 0x00 前言
+## 0x00 前言
 
 这里用单纯的挂载/var/log 来形容这个逃逸的触发条件其实不太严谨，需要满足如下条件。
 
@@ -15,7 +15,7 @@ title: k8s 下挂载 /var/log 逃逸
 - 容器是在一个 k8s 的环境中
 - 当前 pod 的 serviceaccount 拥有 get|list|watch log 的权限
 
-# 0x01 环境搭建
+## 0x01 环境搭建
 
 ```bash
 git clone https://github.com/Metarget/metarget.git
@@ -75,7 +75,7 @@ spec:
       type: Directory
 ```
 
-# 0x02 漏洞检测
+## 0x02 漏洞检测
 
 前提是处于 k8s 环境下，漏洞检测才有意义
 
@@ -83,7 +83,7 @@ spec:
 find / -name lastlog 2>/dev/null | wc -l | grep -q 3 && echo "/var/log is mounted." || echo "/var/log is not mounted."
 ```
 
-# 0x03 漏洞复现
+## 0x03 漏洞复现
 
 进入容器
 

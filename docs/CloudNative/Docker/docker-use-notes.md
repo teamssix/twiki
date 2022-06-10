@@ -8,7 +8,7 @@ title: Docker 使用笔记
 
 ---
 
-# 0x00 前言
+## 0x00 前言
 
 平时在使用 Docker 时，经常会碰到忘记相关命令的情况，因此平时忘记一个就会记录一个，经过多年的记录，Docker 相关的笔记已经记录了不少。
 
@@ -16,9 +16,9 @@ title: Docker 使用笔记
 
 如果你也面临过「在使用 Docker 时，时不时就会忘记某条命令」的情况，那么我相信本篇文章应该会对你有所帮助。
 
-# 0x01 安装
+## 0x01 安装
 
-## 1、安装 Docker
+### 1、安装 Docker
 
 ```
 curl -fsSL https://get.docker.com/ | sh
@@ -38,7 +38,7 @@ docker run ubuntu echo "helloworld"
 
 ![](https://teamssix.oss-cn-hangzhou.aliyuncs.com/202110282041924.png?x-oss-process=image/auto-orient,1/quality,q_80/watermark,bucket_teamssix,image_VGVhbXNTaXhXaW5YaW5Mb2dvLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzM4,x_10,y_10)
 
-## 2、安装 Docker-Compose
+### 2、安装 Docker-Compose
 
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -46,7 +46,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-## 3、Docker 设置国内镜像源
+### 3、Docker 设置国内镜像源
 
 ```
 vi /etc/docker/daemon.json
@@ -74,21 +74,21 @@ https://docker.mirrors.ustc.edu.cn
 https://cr.console.aliyun.com/
 ```
 
-# 0x02 使用
+## 0x02 使用
 
-## 1、搜索镜像
+### 1、搜索镜像
 
 ```
 docker search centos
 ```
 
-## 2、拉取镜像
+### 2、拉取镜像
 
 ```
 docker pull centos
 ```
 
-## 3、查看镜像文件
+### 3、查看镜像文件
 
 ```
 docker images
@@ -104,13 +104,13 @@ docker images tree
 docker images --tree
 ```
 
-## 4、查看docker所有进程
+### 4、查看docker所有进程
 
 ```
 docker ps -a
 ```
 
-## 5、开启容器
+### 5、开启容器
 
 开启指定容器，这里的容器名为 Web
 
@@ -124,7 +124,7 @@ docker start web
 docker start $(docker ps -aq)
 ```
 
-## 6、进入正在运行的容器
+### 6、进入正在运行的容器
 
 docker 创建的
 
@@ -140,14 +140,14 @@ container_name 需要在 docker-compose.yml 文件中查看
 docker-compose exec container_name bash
 ```
 
-## 7、指定端口启动创建进入容器
+### 7、指定端口启动创建进入容器
 
 ```
 docker run -p 9992:80 -p 8882:8888 -it ubuntu /bin/bash
 docker run --name web1 -p 9991:80 -p 8881:8888 -it centos /bin/bash
 ```
 
-## 8、导出导入镜像
+### 8、导出导入镜像
 
 export\import 导入导出
 
@@ -169,7 +169,7 @@ export\import 与 save\load 的区别：
 
 * export\import 是根据容器拿到的镜像，再导入时会丢失镜像所有的历史，所以无法进行回滚操作；而 save\load 的镜像，没有丢失镜像的历史，可以回滚到之前的层。
 
-## 9、修改正在运行的容器端口映射
+### 9、修改正在运行的容器端口映射
 
 a、停止容器
 
@@ -196,7 +196,7 @@ d、启动docker服务(systemctl start docker)
 
 e、启动容器
 
-## 10、文件传输
+### 10、文件传输
 
 ```
 docker cp 本地文件路径 ID全称:容器路径
@@ -206,7 +206,7 @@ docker cp 本地文件路径 ID全称:容器路径
 docker cp ID全称:容器文件路径 本地路径
 ```
 
-## 11、后台运行docker
+### 11、后台运行docker
 
 启动全新的容器，该命令会在后台运行容器，并返回容器ID
 
@@ -220,9 +220,9 @@ docker run -d
 ctrl+P+Q
 ```
 
-# 0x03 卸载
+## 0x03 卸载
 
-## 1、停止容器
+### 1、停止容器
 
 停止指定容器
 
@@ -236,7 +236,7 @@ docker stop web
 docker stop $(docker ps -aq)
 ```
 
-## 2、删除容器和镜像
+### 2、删除容器和镜像
 
 删除指定容器
 
@@ -286,14 +286,14 @@ docker system prune --all --force --volumns 	# 这次不仅会删除数据卷，
 docker rmi $(docker images -q)
 ```
 
-## 3、卸载Docker
+### 3、卸载Docker
 
 ```
 yum list installed | grep docker
 yum -y remove docker.x86_64
 ```
 
-## 4、卸载Docker-compose
+### 4、卸载Docker-compose
 
 ```
 rm /usr/local/bin/docker-compose
