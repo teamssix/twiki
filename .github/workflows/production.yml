@@ -20,7 +20,7 @@ jobs:
       - run: sed -i 's/VSSUECLIENTID/${{ secrets.VSSUECLIENTID }}/g' docs/.vuepress/config.js
       - run: sed -i 's/VSSUECLIENTSECRET/${{ secrets.VSSUECLIENTSECRET }}/g' docs/.vuepress/config.js
       - run: yarn install
-      - run: yarn run build
+      - run: yarn docs:build
 
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
@@ -28,4 +28,4 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.PROD_NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         with:
-          args: deploy --dir=public --prod
+          args: deploy --dir=docs/.vuepress/dist --prod
