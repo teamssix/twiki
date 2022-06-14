@@ -22,6 +22,7 @@ title: 云安全资源
 
 ### 1 博客
 
+* 火线 Zone 云安全社区 :fire: [地址](https://zone.huoxian.cn/?sort=newest)
 * 火线云安全知识库 [地址](https://cloudsec.huoxian.cn/)
 * T Wiki 云安全知识文库 :fire: [在线访问地址](https://wiki.teamssix.com/)
 * T Wiki 云安全知识文库 [开源项目地址](https://github.com/teamssix/TWiki) ![GitHub stars](https://img.shields.io/github/stars/teamssix/TWiki) ` T Wiki 文库现已开源，可部署到自己本地方便内网查看`
