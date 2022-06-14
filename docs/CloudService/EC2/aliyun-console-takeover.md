@@ -13,9 +13,11 @@ title: 阿里云控制台接管
 
 ## 0x01 环境搭建
 
-本文采用 TerraformGoat 进行靶场的搭建，Terraform 靶场地址：[https://github.com/HuoCorp/TerraformGoat](https://github.com/HuoCorp/TerraformGoat)
+本文采用 TerraformGoat 进行靶场的搭建，TerraformGoat 靶场地址：[https://github.com/HuoCorp/TerraformGoat](https://github.com/HuoCorp/TerraformGoat)
 
 在部署靶场时，需要用到你的阿里云 AccessKey，为了避免影响到你的云上生产环境，因此这里强烈建议使用非生产环境的 AccessKey，不要和生产环境使用同一个账号。
+
+> 由于 TerraformGoat 工具的迭代更新，下述环境搭建的方法已失效，现在部署的方法更加方便友好，具体部署方法请参见上面的 TerraformGoat 靶场地址。
 
 接下来开始搭建靶场，首先克隆靶场项目到本地，并构建下载靶场所需的依赖。
 
