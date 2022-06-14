@@ -17,12 +17,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12'
-      - run: sed -i 's/VSSUECLIENTID/${{ secrets.VSSUECLIENTID }}/g' docs/.vuepress/config.js
-      - run: sed -i 's/VSSUECLIENTSECRET/${{ secrets.VSSUECLIENTSECRET }}/g' docs/.vuepress/config.js
-      - run: yarn install
-      - run: yarn docs:build
-      - run: cp LICENSE docs/.vuepress/dist/
-      - run: cp robots.txt docs/.vuepress/dist/
+      - run: |
+             sed -i 's/VSSUECLIENTID/${{ secrets.VSSUECLIENTID }}/g' docs/.vuepress/config.js
+             sed -i 's/VSSUECLIENTSECRET/${{ secrets.VSSUECLIENTSECRET }}/g' docs/.vuepress/config.js
+             yarn install
+             yarn docs:build
+             cp LICENSE docs/.vuepress/dist/
+             cp robots.txt docs/.vuepress/dist/
 
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
