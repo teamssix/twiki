@@ -23,7 +23,8 @@ title: 云安全资源
 ### 1 博客
 
 * 火线云安全知识库 [地址](https://cloudsec.huoxian.cn/)
-* T Wiki 云安全知识文库 [地址](https://wiki.teamssix.com/)
+* T Wiki 云安全知识文库 :fire: [在线访问地址](https://wiki.teamssix.com/)
+* T Wiki 云安全知识文库 [开源项目地址](https://github.com/teamssix/TWiki) ![GitHub stars](https://img.shields.io/github/stars/teamssix/TWiki) ` T Wiki 文库现已开源，可部署到自己本地方便内网查看`
 * Cloud Security Wiki（英文）[地址](https://cloudsecwiki.com/index.html)
 * Hacking The Cloud（英文） [地址](https://hackingthe.cloud/)
 * Lightspin Blog（英文）[地址](https://blog.lightspin.io/)
