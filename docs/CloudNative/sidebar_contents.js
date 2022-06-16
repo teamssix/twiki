@@ -30,6 +30,7 @@ module.exports = [
             "/CloudNative/Terraform/",
             "/CloudNative/Terraform/terraform-experience",
             "/CloudNative/Terraform/terraform-enable-plugin-cache",
+            "/CloudNative/Terraform/terraform-visualization-online",
             "/CloudNative/Terraform/terraform-visualization",
             "/CloudNative/Terraform/terraform-code-security-check",
             "/CloudNative/Terraform/terraform-introductory",
