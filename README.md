@@ -13,6 +13,7 @@
 ```bash
 git clone https://github.com/teamssix/TWiki.git --depth 1
 cd TWiki
+npm install --global yarn
 yarn install
 yarn docs:build
 ```
