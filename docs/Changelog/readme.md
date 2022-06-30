@@ -4,6 +4,28 @@ title: 更新日志
 <center><h1>更新日志</h1></center>
 
 ---
+## 2022.6.30
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline>
+<a-timeline-item>
+      2022.6.30
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>云安全漏洞数据库</li>
+				</ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2022.6.16
 <p></p> 
 
