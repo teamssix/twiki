@@ -32,6 +32,7 @@ module.exports = [
             "/CF/More/flushCache",
             "/CF/More/logLevel",
             "/CF/More/version",
+            "/CF/More/upgrade",
             "/CF/More/help",
             "/CF/More/aboutMe"
         ]

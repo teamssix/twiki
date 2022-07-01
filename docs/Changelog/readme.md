@@ -40,6 +40,10 @@ title: 更新日志
       <p>
          <a-tag color="blue">新增文章</a-tag>《关于作者》<a href="/CF/More/aboutMe.html" target="_blank">文章地址</a><br/>
       </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《自动更新》<a href="/CF/More/upgrade.html" target="_blank">文章地址</a><br/>
+      </p>
     </a-timeline-item>
    </a-timeline>
 </template>

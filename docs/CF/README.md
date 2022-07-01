@@ -74,7 +74,7 @@ cf ls
 cf ecs exec -h
 ```
 
-   <img width="800" src="/img/1656584478.png">
+   <img width="1000" src="/img/1656584478.png">
 
 一键为所有实例执行三要素，方便 HVV
 
