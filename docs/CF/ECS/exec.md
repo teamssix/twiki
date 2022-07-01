@@ -52,6 +52,8 @@ CF 获取命令结果的等待时间默认是 60 秒，如果命令执行需要�
 
 ::: 
 
+<Vssue />
+
 <script>
 export default {
     mounted () {

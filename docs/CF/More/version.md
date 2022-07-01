@@ -12,6 +12,8 @@ cf version
 
    <img width="600" src="/img/1656645799.png">
 
+<Vssue />
+
 <script>
 export default {
     mounted () {

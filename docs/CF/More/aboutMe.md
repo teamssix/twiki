@@ -14,6 +14,8 @@ cf about
 
 最后既然师傅你都看到这里了，给 [CF](https://github.com/teamssix/cf) 赏个 Star 不过分吧，嘿嘿 ~
 
+<Vssue />
+
 <script>
 export default {
     mounted () {

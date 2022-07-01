@@ -27,6 +27,8 @@ cf oss ls -r cn-beijing
 
 ::: 
 
+<Vssue />
+
 <script>
 export default {
     mounted () {

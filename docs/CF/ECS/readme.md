@@ -35,6 +35,8 @@ cf ecs ls -i i-abcdefghijklmn
 
 ::: 
 
+<Vssue />
+
 <script>
 export default {
     mounted () {

@@ -14,6 +14,8 @@ cf regions aliyun
 
 > 列出的区域结果是没有缓存的，每次列出的区域都是调用接口查询到的实时结果，这里的列出区域调用的是 ecs 的相关接口。
 
+<Vssue />
+
 <script>
 export default {
     mounted () {

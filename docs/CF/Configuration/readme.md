@@ -26,6 +26,8 @@ cf configure ls
 
    <img width="600" src="/img/1656594154.png">
 
+<Vssue />
+
 <script>
 export default {
     mounted () {

@@ -28,6 +28,8 @@ cf ecs exec -m -i i-abcdefghijklmn
 
 :::
 
+<Vssue />
+
 <script>
 export default {
     mounted () {

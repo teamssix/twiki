@@ -36,6 +36,8 @@ cf oss ls --flushCache
 
 > CF 缓存的结果会被保存在 `~/.cf/cache` 目录下
 
+<Vssue />
+
 <script>
 export default {
     mounted () {
