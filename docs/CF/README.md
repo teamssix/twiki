@@ -6,6 +6,7 @@ title: CF 云环境利用框架
 ---
 
 <p align="center">
+<img width="500" src="/img/cf.png"><br>
 <a href="https://github.com/teamssix/cf/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/teamssix/cf" /></a>
 <a href="https://github.com/teamssix/cf/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/teamssix/cf" /></a>
 <a href="https://github.com/teamssix/cf/releases"><img alt="GitHub issues" src="https://img.shields.io/github/release/teamssix/cf" /></a>
@@ -14,6 +15,7 @@ title: CF 云环境利用框架
 <a href="https://github.com/teamssix"><img alt="Github" src="https://img.shields.io/github/followers/TeamsSix?style=social" /></a>
 </p>
 
+---
 
 CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务的访问凭证即 Access Key 的后续工作，CF 项目地址：[github.com/teamssix/cf](https://github.com/teamssix/cf)
 
