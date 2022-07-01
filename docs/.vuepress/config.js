@@ -6,7 +6,8 @@ module.exports = {
     head: [
         [
             'link', { rel: 'icon', href: '/img/favicon.ico' }
-        ],[
+        ],
+        [
             'script', {}, `
             var _hmt = _hmt || [];
         (function() {
@@ -16,10 +17,15 @@ module.exports = {
           s.parentNode.insertBefore(hm, s);
         })();
             `
-          ]
+        ]
     ],
     themeConfig: {
-        repo: 'https://github.com/teamssix',
+        repo: 'teamssix',
+        docsRepo: 'teamssix/TWiki',
+        docsDir: 'docs',
+        docsBranch: 'main',
+        editLinks: true,
+        editLinkText: '编辑这个页面 ~',
         logo: '/img/logo.svg',
         nav: require("./config/nav"),
         sidebar: require("./config/sidebar"),
@@ -31,15 +37,15 @@ module.exports = {
     },
     plugins: [
         [
-        '@vssue/vuepress-plugin-vssue',
-        {
-            platform: 'github',
-            owner: 'teamssix',
-            repo: 'twiki-vssue',
-            clientId: 'VSSUECLIENTID',
-            clientSecret: 'VSSUECLIENTSECRET',
-            autoCreateIssue: true
-        }
+            '@vssue/vuepress-plugin-vssue',
+            {
+                platform: 'github',
+                owner: 'teamssix',
+                repo: 'twiki-vssue',
+                clientId: 'VSSUECLIENTID',
+                clientSecret: 'VSSUECLIENTSECRET',
+                autoCreateIssue: true
+            }
+        ]
     ]
-]
 }

@@ -81,7 +81,7 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
 
 
 
-[想要一起补充文库？](/About/Contribute.html)
+[一起补充文库？](/About/Contribute.html)
 
 <p>&nbsp; </p> 
 

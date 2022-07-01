@@ -6,3 +6,4 @@ img/.DS_Store
 .DS_Store
 yarn.lock
 package-lock.json
+img alias
