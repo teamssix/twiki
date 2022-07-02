@@ -1,5 +1,5 @@
 ---
-title: CF 云环境利用框架
+title: CF 云环境利用框架使用手册
 ---
 <center><h1>CF 云环境利用框架使用手册</h1></center>
 
