@@ -10,7 +10,7 @@ title: 列出所有服务
 cf ls
 ```
 
-   <img width="1000" src="/img/1656584422.png">
+   <img width="1000" src="/img/1656772612.png">
 
 在列出服务时，指定区域
 

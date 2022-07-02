@@ -10,7 +10,7 @@ title: 查看版本信息
 cf version
 ```
 
-   <img width="600" src="/img/1656645799.png">
+   <img width="500" src="/img/1656775466.png">
 
 <Vssue />
 

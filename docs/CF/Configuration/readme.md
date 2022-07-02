@@ -12,7 +12,7 @@ CF 支持两种配置访问凭证的方法，一种是利用永久的访问凭�
 cf configure
 ```
 
-   <img width="1000" src="/img/1656583779.png">
+   <img width="800" src="/img/1656772180.png">
 
 在配置凭证的时候 `Access Key ID` 和 `Access Key Secret` 参数是必填的，当配置临时访问凭证时，需要填 `STS Token` 参数。
 
@@ -24,7 +24,7 @@ cf configure
 cf configure ls
 ```
 
-   <img width="600" src="/img/1656594154.png">
+   <img width="800" src="/img/1656594154.png">
 
 <Vssue />
 

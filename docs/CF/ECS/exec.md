@@ -4,13 +4,17 @@ title: 在实例上执行命令
 
 ## 执行单行命令
 
+在执行命令前，如果未指定具体的实例，则 CF 会提醒是否是选择全部实例还是某个实例。
+
+ <img width="800" src="/img/1656774333.png">
+
 使用 `-c` 参数执行单个命令
 
 ```bash
 cf ecs exec -c whoami
 ```
 
-   <img width="400" src="/img/1656600172.png">
+   <img width="600" src="/img/1656774467.png">
 
 指定某个实例执行命令
 
@@ -44,7 +48,7 @@ cf ecs exec -c \$PSVersionTable -i i-abcdefghijklmn -s ps
 cf ecs exec -f teamssix.txt
 ```
 
-   <img width="400" src="/img/1656600561.png">
+   <img width="600" src="/img/1656774945.png">
 
 ::: warning 注意
 

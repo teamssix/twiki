@@ -10,7 +10,7 @@ title: 一键执行三要素
 cf ecs exec -b
 ```
 
-   <img width="550" src="/img/1656584649.png">
+   <img width="700" src="/img/1656772503.png">
 
 指定单个实例获取三要素
 
