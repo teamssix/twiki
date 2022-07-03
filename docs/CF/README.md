@@ -63,7 +63,7 @@ cf configure
 
    <img width="800" src="/img/1656772180.png">
 
-一键列出当前访问凭证的云服务资源，当前仅支持 OSS 和 ECS 资源。
+一键列出当前访问凭证的云服务资源
 
 ```bash
 cf ls
