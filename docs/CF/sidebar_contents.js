@@ -24,6 +24,12 @@ module.exports = [
             "/CF/ECS/reverseShell",
         ]
     }, {
+        title: "RDS 云数据库",
+        collapsable: false,
+        children: [
+            "/CF/RDS/",
+        ]
+    }, {
         title: "更多",
         collapsable: false,
         children: [

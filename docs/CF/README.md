@@ -53,7 +53,7 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 
 ## 简单上手
 
-   <img width="1000" src="/img/1656772011.png">
+   <img width="1000" src="/img/1656867071.png">
 
 配置 CF
 
@@ -69,7 +69,7 @@ cf configure
 cf ls
 ```
 
-   <img width="1000" src="/img/1656772612.png">
+   <img width="1000" src="/img/1656867011.png">
 
 查看 CF 为实例执行命令的操作的帮助信息
 
