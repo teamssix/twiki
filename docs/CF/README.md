@@ -107,11 +107,3 @@ cf ecs exec -m
 <div align=center><img src="https://api.star-history.com/svg?repos=teamssix/cf&type=Timeline" div align=center/></div>
 
 <Vssue />
-
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022年7月4日"
-    }
-  }
-</script>

@@ -10,14 +10,6 @@ title: 查看版本信息
 cf version
 ```
 
-   <img width="500" src="/img/1656775466.png">
+   <img width="500" src="/img/1656931043.png">
 
 <Vssue />
-
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022年7月1日"
-    }
-  }
-</script>

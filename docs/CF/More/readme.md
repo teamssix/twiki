@@ -4,28 +4,18 @@ title: 列出所有服务
 
 ## 列出所有服务
 
-直接使用 `ls` 命令即可列出当前访问凭证下的 OSS 和 ECS 服务，未来会支持更多服务。
+直接使用 `ls` 命令即可列出当前访问凭证下的云服务资源。
 
 ```bash
 cf ls
 ```
 
-   <img width="1000" src="/img/1656772612.png">
+   <img width="1000" src="/img/1656867011.png">
 
-在列出服务时，指定区域
+如果想指定区域，可以使用 `-r` 或者 `--region` 命令
 
 ```bash
 cf ls -r cn-beijing
 ```
 
-   <img width="1000" src="/img/1656644501.png">
-
 <Vssue />
-
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022年7月1日"
-    }
-  }
-</script>
