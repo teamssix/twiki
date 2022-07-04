@@ -53,7 +53,7 @@ powershell IEX (New-Object System.Net.Webclient).DownloadString('https://ghproxy
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年6月30日"
+      this.$page.lastUpdated = "2022年7月4日"
     }
   }
 </script>
