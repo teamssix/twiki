@@ -30,6 +30,12 @@ module.exports = [
             "/CF/RDS/",
         ]
     }, {
+        title: "RAM 访问控制",
+        collapsable: false,
+        children: [
+            "/CF/RAM/",
+        ]
+    }, {
         title: "更多",
         collapsable: false,
         children: [

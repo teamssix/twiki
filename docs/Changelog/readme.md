@@ -21,6 +21,10 @@ title: 更新日志
           <li>云环境利用框架 CF</li>
 				</ul>
     </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《一键接管控制台》<a href="/CF/RAM/" target="_blank">文章地址</a><br/>
+      </p>
     </a-timeline-item>
    </a-timeline>
 </template>

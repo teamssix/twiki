@@ -36,10 +36,10 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
   * 一键为实例反弹 Shell
   * 支持阿里云
   * 列出云数据库
+  * 一键接管控制台
   * ……
 * 预计短期内实现
   * 云上痕迹清除
-  * 一键接管控制台
   * 一键查看当前访问凭证所拥有的权限
   * ……
 * 预计长期内实现
@@ -51,7 +51,7 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 
 ## 简单上手
 
-   <img width="1000" src="/img/1656867071.png">
+   <img width="1000" src="/img/1657031973.png">
 
 配置 CF
 
@@ -68,6 +68,14 @@ cf ls
 ```
 
    <img width="1000" src="/img/1656867011.png">
+
+一键接管控制台
+
+```bash
+cf console
+```
+
+   <img width="800" src="/img/1657032090.png">
 
 查看 CF 为实例执行命令的操作的帮助信息
 
