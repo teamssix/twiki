@@ -46,6 +46,11 @@ module.exports = {
                 clientSecret: 'VSSUECLIENTSECRET',
                 autoCreateIssue: true
             }
-        ]
+        ],[
+            '@vuepress/google-analytics',
+            {
+              'ga': 'G-LTL44BXQDN'
+            }
+          ]
     ]
 }
