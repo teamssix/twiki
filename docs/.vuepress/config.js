@@ -49,7 +49,7 @@ module.exports = {
         ],[
             '@vuepress/google-analytics',
             {
-              'ga': 'G-LTL44BXQDN'
+              'ga': 'G-TGC55QFEEH'
             }
           ]
     ]
