@@ -13,6 +13,14 @@ module.exports = [
             "/CloudNative/Docker/docker-socket-escape",
             "/CloudNative/Docker/docker-privileged-escape",
             "/CloudNative/Docker/docker-remote-api-unauth-escape",
+            "/CloudNative/Docker/CVE-2016-5195",
+            "/CloudNative/Docker/CVE-2019-16884",
+            "/CloudNative/Docker/CVE-2021-3493",
+            "/CloudNative/Docker/CVE-2021-22555",
+            "/CloudNative/Docker/CVE-2022-0492",
+            "/CloudNative/Docker/CVE-2022-0847",
+            "/CloudNative/Docker/CVE-2022-23222",
+            "/CloudNative/Docker/docker-user-group-privilege-escalation",
         ]
     }, {
         title: "Kubernetes",
