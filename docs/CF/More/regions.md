@@ -25,3 +25,11 @@ cf regions aliyun rds
 > 列出的区域结果是没有缓存的，每次列出的区域都是调用接口查询到的实时结果。
 
 <Vssue />
+
+<script>
+export default {
+    mounted () {
+      this.$page.lastUpdated = "2022年7月5日"
+    }
+  }
+</script>

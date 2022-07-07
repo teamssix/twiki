@@ -39,3 +39,11 @@ cf console cancel
 ```
 
 <Vssue />
+
+<script>
+export default {
+    mounted () {
+      this.$page.lastUpdated = "2022年7月5日"
+    }
+  }
+</script>

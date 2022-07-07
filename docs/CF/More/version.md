@@ -13,3 +13,11 @@ cf version
    <img width="500" src="/img/1656931043.png">
 
 <Vssue />
+
+<script>
+export default {
+    mounted () {
+      this.$page.lastUpdated = "2022年7月5日"
+    }
+  }
+</script>
