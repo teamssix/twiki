@@ -62,7 +62,7 @@ build 完之后，将 docs/.vuepress/dist 目录下的文件复制到你的 ngin
 </table>
 
 
-[一起补充文库？](/About/Contribute.html)
+[一起补充文库？](https://wiki.teamssix.com/About/Contribute.html)
 
 
 
