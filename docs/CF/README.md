@@ -37,10 +37,10 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
   * 支持阿里云
   * 列出云数据库
   * 一键接管控制台
+  * 一键查看当前访问凭证所拥有的权限
   * ……
 * 预计短期内实现
   * 云上痕迹清除
-  * 一键查看当前访问凭证所拥有的权限
   * ……
 * 预计长期内实现
   * 自动检测当前运行环境是不是实例，如果是则一键扫描本地实例的凭证信息
@@ -69,13 +69,21 @@ cf ls
 
    <img width="1000" src="/img/1656867011.png">
 
+一键列出当前访问凭证的权限
+
+```bash
+cf ls permissions
+```
+
+   <img width="800" src="/img/1657285571.png">
+
 一键接管控制台
 
 ```bash
 cf console
 ```
 
-   <img width="800" src="/img/1657032090.png">
+   <img width="800" src="/img/1657285345.png">
 
 查看 CF 为实例执行命令的操作的帮助信息
 

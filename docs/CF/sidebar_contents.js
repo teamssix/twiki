@@ -34,6 +34,7 @@ module.exports = [
         collapsable: false,
         children: [
             "/CF/RAM/",
+            "/CF/RAM/lsPermissions",
         ]
     }, {
         title: "更多",

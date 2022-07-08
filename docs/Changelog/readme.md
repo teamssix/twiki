@@ -4,6 +4,21 @@ title: 更新日志
 <center><h1>更新日志</h1></center>
 
 ---
+## 2022.7.8
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《列出当前凭证权限》<a href="/CF/RAM/lsPermissions.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 
 ## 2022.7.7
 
