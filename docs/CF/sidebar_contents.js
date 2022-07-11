@@ -12,6 +12,7 @@ module.exports = [
         children: [
             "/CF/OSS/",
             "/CF/OSS/lsObjects",
+            "/CF/OSS/getObjects"
         ]
     }, {
         title: "ECS 弹性计算服务",
