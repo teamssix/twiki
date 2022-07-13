@@ -39,6 +39,12 @@ module.exports = [
             "/CF/RAM/lsPermissions",
         ]
     }, {
+        title: "使用案例",
+        collapsable: false,
+        children: [
+            "/CF/Cases/",
+        ]
+    }, {
         title: "更多",
         collapsable: false,
         children: [
