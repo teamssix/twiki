@@ -20,12 +20,11 @@ module.exports = [
         collapsable: false,
         children: [
             "/CloudService/EC2/",
-            "/CloudService/EC2/console-takeover",
-            "/CloudService/EC2/aliyun-console-takeover",
             "/CloudService/EC2/user-data",
             "/CloudService/EC2/ec2-permission-maintenance",
             "/CloudService/EC2/ec2-shared-snapshot",
             "/CloudService/EC2/ec2-subdomain-takeover",
+            "/CloudService/EC2/ec2-exec-command"
         ]
     }, {
         title: "RDS 云数据库",
@@ -41,7 +40,9 @@ module.exports = [
         children: [
             "/CloudService/IAM/",
             "/CloudService/IAM/iam-persistence",
-            "/CloudService/IAM/list-attached-user-policies"
+            "/CloudService/IAM/list-attached-user-policies",
+            "/CloudService/EC2/console-takeover",
+            "/CloudService/EC2/aliyun-console-takeover"
         ]
     }
 ];
