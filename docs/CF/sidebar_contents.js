@@ -7,7 +7,7 @@ module.exports = [
             "/CF/Configuration/",
         ]
     }, {
-        title: "OSS 对象存储",
+        title: "对象存储",
         collapsable: false,
         children: [
             "/CF/OSS/",
@@ -15,7 +15,7 @@ module.exports = [
             "/CF/OSS/getObjects"
         ]
     }, {
-        title: "ECS 弹性计算服务",
+        title: "弹性计算服务",
         collapsable: false,
         children: [
             "/CF/ECS/",
@@ -24,15 +24,16 @@ module.exports = [
             "/CF/ECS/metaDataSTSToken",
             "/CF/ECS/userData",
             "/CF/ECS/reverseShell",
+            "/CF/ECS/vpc",
         ]
     }, {
-        title: "RDS 云数据库",
+        title: "云数据库",
         collapsable: false,
         children: [
             "/CF/RDS/",
         ]
     }, {
-        title: "RAM 访问控制",
+        title: "访问控制",
         collapsable: false,
         children: [
             "/CF/RAM/",

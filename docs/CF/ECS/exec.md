@@ -6,23 +6,17 @@ title: 在实例上执行命令
 
 在执行命令前，如果未指定具体的实例，则 CF 会提醒是否是选择全部实例还是某个实例。
 
- <img width="800" src="/img/1656774333.png">
-
 使用 `-c` 参数执行单个命令
 
 ```bash
-cf ecs exec -c whoami
+cf alibaba ecs exec -c whoami
 ```
-
-   <img width="600" src="/img/1656774467.png">
 
 指定某个实例执行命令
 
 ```bash
-cf ecs exec -c whoami -i i-abcdefghijklmn
+cf alibaba ecs exec -c whoami -i i-abcdefghijklmn
 ```
-
-   <img width="500" src="/img/1656600309.png">
 
 ::: warning 注意
 
@@ -33,22 +27,18 @@ cf ecs exec -c whoami -i i-abcdefghijklmn
 执行 PowerShell 下的命令
 
 ```bash
-cf ecs exec -c \$PSVersionTable -i i-abcdefghijklmn -s ps
+cf alibaba ecs exec -c \$PSVersionTable -i i-abcdefghijklmn -s ps
 ```
 
 > 由于 `$` 符号在终端下属于特殊符号，因此这里需要使用 `\` 转义一下
-
-<img width="600" src="/img/1656602073.png">
 
 ## 执行多行命令
 
 使用 `-f` 参数执行文本文件里的命令
 
 ```bash
-cf ecs exec -f teamssix.txt
+cf alibaba ecs exec -f teamssix.txt
 ```
-
-   <img width="600" src="/img/1656774945.png">
 
 ::: warning 注意
 
@@ -58,12 +48,14 @@ cf ecs exec -f teamssix.txt
 
 ::: 
 
+如果想在腾讯云下执行这些命令，只需要使用 `cf tencent` 跟上对应的命令即可。
+
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月4日"
+      this.$page.lastUpdated = "2022年7月18日"
     }
   }
 </script>

@@ -39,6 +39,7 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
   * 列出云数据库
   * 一键接管控制台
   * 一键查看当前访问凭证所拥有的权限
+  * 支持腾讯云
   * ……
 * 预计短期内实现
   * 云上痕迹清除
@@ -46,13 +47,13 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 * 预计长期内实现
   * 自动检测当前运行环境是不是实例，如果是则一键扫描本地实例的凭证信息
   * 一键将获取到的临时凭证添加到工具中
-  * 支持腾讯云等其他云厂商
+  * 支持其他云厂商
   * ……
 
 
 ## 简单上手
 
-   <img width="1000" src="/img/1657031973.png">
+   <img width="1000" src="/img/1658074892.png">
 
 配置 CF
 
@@ -60,55 +61,47 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 cf configure
 ```
 
-   <img width="800" src="/img/1656772180.png">
-
 一键列出当前访问凭证的云服务资源
 
 ```bash
-cf ls
+cf alibaba ls
 ```
-
-   <img width="1000" src="/img/1656867011.png">
 
 一键列出当前访问凭证的权限
 
 ```bash
-cf ls permissions
+cf alibaba permissions
 ```
-
-   <img width="800" src="/img/1657285571.png">
 
 一键接管控制台
 
 ```bash
-cf console
+cf alibaba console
 ```
-
-   <img width="800" src="/img/1657285345.png">
 
 查看 CF 为实例执行命令的操作的帮助信息
 
 ```bash
-cf ecs exec -h
+cf alibaba ecs exec -h
 ```
-
-   <img width="1000" src="/img/1656584478.png">
 
 一键为所有实例执行三要素，方便 HVV
 
 ```
-cf ecs exec -b
+cf alibaba ecs exec -b
 ```
-
-   <img width="700" src="/img/1656772503.png">
 
 一键获取实例中的临时访问凭证数据
 
 ```bash
-cf ecs exec -m
+cf alibaba ecs exec -m
 ```
 
-   <img width="1000" src="/img/1656772364.png">
+一键查看 VPC 安全组规则
+
+```bash
+cf tencent vpc ls
+```
 
 如果感觉还不错的话，师傅记得给个 Star 呀 ~
 
@@ -128,7 +121,7 @@ cf ecs exec -m
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月5日"
+      this.$page.lastUpdated = "2022年7月18日"
     }
   }
 </script>
