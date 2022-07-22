@@ -7,7 +7,7 @@ title: 列出云数据库
 使用以下命令列出 OSS 对象存储服务
 
 ```bash
-cf rds ls
+cf alibaba rds ls
 ```
 
    <img width="1000" src="/img/1656867218.png">
@@ -32,7 +32,7 @@ cf rds ls
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月4日"
+      this.$page.lastUpdated = "2022年7月22日"
     }
   }
 </script>

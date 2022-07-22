@@ -7,18 +7,14 @@ title: 列出对象存储服务
 使用以下命令列出 OSS 对象存储服务
 
 ```bash
-cf oss ls
+cf alibaba oss ls
 ```
-
-   <img width="1000" src="/img/1656595120.png">
 
 如果想指定区域，可以使用 `-r` 或者 `--region` 参数
 
 ```bash
-cf oss ls -r cn-beijing
+cf alibaba oss ls -r cn-beijing
 ```
-
-   <img width="1000" src="/img/1656598124.png">
 
 ::: warning 注意
 
@@ -32,7 +28,7 @@ cf oss ls -r cn-beijing
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年6月30日"
+      this.$page.lastUpdated = "2022年7月22日"
     }
   }
 </script>

@@ -7,7 +7,7 @@ title: 一键接管控制台
 使用以下命令接管控制台
 
 ```bash
-cf console
+cf alibaba console
 ```
 
 > 接管控制台需要当前访问凭证至少拥有 `AliyunRAMFullAccess` 权限。
@@ -35,17 +35,17 @@ cf console
 ## 取消接管控制台
 
 ```bash
-cf console cancel
+cf alibaba console cancel
 ```
 
-<img width="800" src="/img/1657287207.png">
+如果想在腾讯云下执行这些命令，只需要使用 `cf tencent` 跟上对应的命令即可。
 
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月8日"
+      this.$page.lastUpdated = "2022年7月22日"
     }
   }
 </script>
