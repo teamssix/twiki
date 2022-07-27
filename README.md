@@ -8,7 +8,17 @@
 
 文库的地址为：[wiki.teamssix.com](https://wiki.teamssix.com/)
 
-## 本地部署
+## 本地开发预览
+
+```bash
+git clone https://github.com/teamssix/TWiki.git --depth 1
+cd TWiki
+npm install --global yarn
+yarn install
+yarn docs:dev
+```
+
+## 生成并部署
 
 ```bash
 git clone https://github.com/teamssix/TWiki.git --depth 1
