@@ -1,0 +1,23 @@
+name: Sync Github Repos To Gitee
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Black list
+      uses: Yikun/hub-mirror-action@master
+      with:
+        src: github/teamssix
+        dst: gitee/teamssix
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token: ${{ secrets.GITEE_TOKEN }}
+        static_list: "TWiki"
+        account_type: user
+        force_update: true
+        clone_style: "https"
+        timeout: "600s"
