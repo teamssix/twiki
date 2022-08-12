@@ -8,17 +8,9 @@
 
 文库的地址为：[wiki.teamssix.com](https://wiki.teamssix.com/)
 
-## 本地开发预览
+## 本地部署
 
-```bash
-git clone https://github.com/teamssix/TWiki.git --depth 1
-cd TWiki
-npm install --global yarn
-yarn install
-yarn docs:dev
-```
-
-## 生成并部署
+> 注意：node 版本需要大于或等于 12
 
 ```bash
 git clone https://github.com/teamssix/TWiki.git --depth 1
@@ -30,7 +22,14 @@ yarn docs:build
 
 build 完之后，将 docs/.vuepress/dist 目录下的文件复制到你的 nginx 或者 apache 服务的网站根目录下即可。
 
-> 注意：node 版本需要大于或等于 12
+## Docker 部署
+
+```bash
+docker pull teamssix/twiki
+docker run --name twiki -d -p 7777:80 twiki
+```
+
+然后访问本地 IP 的 7777 端口即可。
 
 ## 感谢以下为 T Wiki 文库贡献的师傅们 :confetti_ball:
 
