@@ -21,6 +21,10 @@ title: 更新日志
           <li>云计算隔离问题：PostgreSQL 的漏洞影响到多个云计算供应商</li>
 				</ul>
     </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《本地部署》<a href="/About/LocalDeployment.html" target="_blank">文章地址</a><br/>
+      </p>
     </a-timeline-item>
    </a-timeline>
 </template>
