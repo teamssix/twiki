@@ -25,8 +25,8 @@ build 完之后，将 docs/.vuepress/dist 目录下的文件复制到你的 ngin
 ## Docker 部署
 
 ```bash
-docker pull teamssix/twiki
-docker run --name twiki -d -p 7777:80 twiki
+docker pull teamssix/twiki:main
+docker run --name twiki -d -p 7777:80 teamssix/twiki:main
 ```
 
 然后访问本地 IP 的 7777 端口即可。
