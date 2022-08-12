@@ -4,6 +4,81 @@ title: 更新日志
 <center><h1>更新日志</h1></center>
 
 ---
+## 2022.8.12
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline>
+<a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>福布斯 Cloud 100</li>
+          <li>云计算隔离问题：PostgreSQL 的漏洞影响到多个云计算供应商</li>
+				</ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+## 2022.8.11
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline>
+<a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>2021 年云安全事件回顾</li>
+          <li>Christophe Tafani-Dereeper 博客</li>
+          <li>Google Cloud Shell 命令注入</li>
+				</ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
+## 2022.8.10
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline>
+<a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>Lightspin 2022 年 7 大云攻击路径</li>
+          <li>安全大道资讯</li>
+          <li>Deepfence 博客</li>
+          <li>Lacework 博客</li>
+          <li>Humanitec 博客</li>
+          <li>Orca 博客</li>
+          <li>Praetorian 博客</li>
+          <li>Ermetic 博客</li>
+          <li>云安全入门资料</li>
+          <li>云服务漏洞库</li>
+				</ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
+
 ## 2022.7.18
 
 <p></p> 
