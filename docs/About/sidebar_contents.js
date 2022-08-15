@@ -1,6 +1,6 @@
 module.exports = [
 '/About/',
-	'Contribute',
-    'LocalDeployment',
-    'Feedback',
+'Contribute',
+'LocalDeployment',
+'Feedback',
 ];
