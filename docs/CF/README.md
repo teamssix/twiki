@@ -6,7 +6,7 @@ title: CF 云环境利用框架使用手册
 ---
 
 <p align="center">
-<img width="500" src="https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202207022209168.png"><br><br>
+<img width="500" src="/img/cf.png"><br><br>
 <a href="https://github.com/teamssix/cf/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/teamssix/cf"/></a>
 <a href="https://github.com/teamssix/cf/releases"><img alt="GitHub releases" src="https://img.shields.io/github/release/teamssix/cf"/></a>
 <a href="https://github.com/teamssix/cf/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
@@ -21,57 +21,42 @@ title: CF 云环境利用框架使用手册
 
 ---
 
-CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务的访问凭证即 Access Key 的后续工作，CF 项目地址：[github.com/teamssix/cf](https://github.com/teamssix/cf)
+CF 是一个云环境利用框架，适用于在红队场景中对云上内网进行横向、SRC 场景中对 Access Key 即访问凭证的影响程度进行判定、企业场景中对自己的云上资产进行自检等等。
 
 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases)
 
-> 目前 CF 仅支持阿里云，后续会不断更新对其他云的支持。
+<img width="1000" src="/img/CF_v0.4.0.png"><br>
 
-目前 CF 可以实现以下功能：
+当前已支持的云：
 
-* 已实现
-  * 列出对象存储（包括存储桶大小和文件数量信息）
-  * 列出实例
-  * 一键获得实例上的临时访问凭证
-  * 一键为所有实例执行三要素，方便 HVV
-  * 一键为实例反弹 Shell
-  * 支持阿里云
-  * 列出云数据库
-  * 一键接管控制台
-  * 一键查看当前访问凭证所拥有的权限
-  * 支持腾讯云
-  * ……
-* 预计短期内实现
-  * 云上痕迹清除
-  * ……
-* 预计长期内实现
-  * 自动检测当前运行环境是不是实例，如果是则一键扫描本地实例的凭证信息
-  * 一键将获取到的临时凭证添加到工具中
-  * 支持其他云厂商
-  * ……
+- [x] 阿里云
+- [x] 腾讯云
+- [ ] AWS（预计在 2022 年 10 月 14 日前支持）
+- [ ] 华为云（预计在 2022 年 12 月 14 日前支持）
 
+功能排期可参考：[github.com/teamssix/cf/discussions/130](https://github.com/teamssix/cf/discussions/130)
 
 ## 简单上手
 
-   <img width="1000" src="/img/1658074892.png">
+<img width="900" src="/img/1662366701.png">
 
-配置 CF
+> 这里以阿里云为例，其他更多操作可以查看上面的使用手册。
 
-```bash
-cf configure
-```
-
-一键列出当前访问凭证的云服务资源
+配置访问配置
 
 ```bash
-cf alibaba ls
+cf config
 ```
+
+<img width="900" src="/img/1662541672.png">
 
 一键列出当前访问凭证的权限
 
 ```bash
-cf alibaba permissions
+cf alibaba perm
 ```
+
+<img width="750" src="/img/1662541990.png">
 
 一键接管控制台
 
@@ -79,17 +64,31 @@ cf alibaba permissions
 cf alibaba console
 ```
 
+<img width="850" src="/img/1662542001.png">
+
+一键列出当前访问凭证的云服务资源
+
+```bash
+cf alibaba ls
+```
+
+<img width="1000" src="/img/1662542020.png">
+
 查看 CF 为实例执行命令的操作的帮助信息
 
 ```bash
 cf alibaba ecs exec -h
 ```
 
+<img width="1000" src="/img/1662542058.png">
+
 一键为所有实例执行三要素，方便 HVV
 
-```
+```bash
 cf alibaba ecs exec -b
 ```
+
+<img width="800" src="/img/1662542141.png">
 
 一键获取实例中的临时访问凭证数据
 
@@ -97,18 +96,53 @@ cf alibaba ecs exec -b
 cf alibaba ecs exec -m
 ```
 
-一键查看 VPC 安全组规则
+<img width="1000" src="/img/1662542336.png">
+
+一键下载 OSS 对象存储数据
 
 ```bash
-cf tencent vpc ls
+cf alibaba oss obj get
 ```
+
+<img width="900" src="/img/1662542708.png">
+
+一键升级 CF 版本
+
+```bash
+cf upgrade
+```
+
+<img width="900" src="/img/1662542858.png">
+
 
 如果感觉还不错的话，师傅记得给个 Star 呀 ~
 
-## 注意事项
+## 贡献者
 
-* 本工具仅用于合法合规用途，严禁用于违法违规用途。
-* 本工具中所涉及的风险点均属于租户责任，与云厂商无关。
+十分感谢各位师傅对 CF 的贡献~，如果你也想对 CF 贡献代码，请参见贡献说明：[CONTRIBUTING](https://github.com/teamssix/cf/blob/main/CONTRIBUTING.md)
+
+<table>
+    <tr>
+        <td align="center"><a href="https://github.com/teamssix"><img alt="TeamsSix"
+                    src="/img/1662546884.jpeg" style="width: 100px;"/><br />TeamsSix</a></td>
+        <td align="center"><a href="https://github.com/Amzza0x00"><img alt="Amzza0x00"
+                    src="/img/1662546910.jpeg"  style="width: 100px;" /><br />Amzza0x00</a></td>
+        <td align="center"><a href="https://github.com/Esonhugh"><img alt="Esonhugh"
+                    src="/img/1662546943.jpeg"  style="width: 100px;" /><br />Esonhugh</a></td>
+        <td align="center"><a href="https://github.com/Dawnnnnnn"><img alt="Dawnnnnnn"
+                    src="/img/1662546995.jpeg"  style="width: 100px;" /><br />Dawnnnnnn</a></td>
+        <td align="center"><a href="https://github.com/Belos-pretender"><img alt="Belos-pretender"
+                    src="/img/1662547016.jpeg"  style="width: 100px;" /><br />Belos-pretender</a></td>
+		</tr>
+</table>
+
+<a href="https://github.com/teamssix"><img src="https://repobeats.axiom.co/api/embed/30b8de6c059cbe83fe0ba44fff91136270a39ab9.svg"></a>
+
+## 404星链计划
+
+<img width="400" src="/img/startlink_logo.png">
+
+CF 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 
 ## 云安全交流群
 
@@ -116,12 +150,18 @@ cf tencent vpc ls
 
 <div align=center><img src="https://api.star-history.com/svg?repos=teamssix/cf&type=Timeline" div align=center/></div>
 
+
+## 注意事项
+
+* 本工具仅用于合法合规用途，严禁用于违法违规用途。
+* 本工具中所涉及的风险点均属于租户责任，与云厂商无关。
+
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月18日"
+      this.$page.lastUpdated = "2022年9月7日"
     }
   }
 </script>

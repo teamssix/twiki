@@ -2,7 +2,7 @@
 title: 一键接管控制台
 ---
 
-## 一键接管控制台
+## 在阿里云上一键接管控制台
 
 使用以下命令接管控制台
 
@@ -10,9 +10,14 @@ title: 一键接管控制台
 cf alibaba console
 ```
 
-> 接管控制台需要当前访问凭证至少拥有 `AliyunRAMFullAccess` 权限。
+接管控制台的时候默认会创建一个名称为 crossfire 的用户，如果想改成其他用户名可以使用 `-u` 参数
 
-<img width="800" src="/img/1657285345.png">
+
+```bash
+cf alibaba console -u teamssix
+```
+
+> 接管控制台需要当前访问凭证至少拥有 `AliyunRAMFullAccess` 权限。
 
 打开浏览器，访问控制台登录地址，输入用户名
 
@@ -32,20 +37,48 @@ cf alibaba console
 
 由于接管控制台的原理是创建一个具有管理员权限的子用户，因此当不想接管、想删除这个子用户的时候，可以使用取消接管控制台的命令。
 
-## 取消接管控制台
+### 取消接管控制台
 
 ```bash
 cf alibaba console cancel
 ```
 
-如果想在腾讯云下执行这些命令，只需要使用 `cf tencent` 跟上对应的命令即可。
+### 查看接管控制台的信息
+
+```bash
+cf alibaba console ls
+```
+
+## 在腾讯云上一键接管控制台
+
+```bash
+cf tencent console
+```
+
+接管控制台的时候默认会创建一个名称为 crossfire 的用户，如果想改成其他用户名可以使用 `-u` 参数
+
+```bash
+cf tencent console -u teamssix
+```
+
+### 取消接管控制台
+
+```bash
+cf tencent console cancel
+```
+
+### 查看接管控制台的信息
+
+```bash
+cf tencent console ls
+```
 
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月22日"
+      this.$page.lastUpdated = "2022年9月7日"
     }
   }
 </script>

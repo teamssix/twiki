@@ -4,28 +4,28 @@ title: 下载存储桶里的对象
 
 ## 下载存储桶里的对象
 
-使用 `oss get` 命令下载存储桶里的对象，在使用的时候需要使用`-b`命令指定存储桶的名称
+使用以下命令下载存储桶里的对象
 
 ```bash
-cf alibaba oss get -b bucketName
+cf alibaba oss obj get
 ```
 
-如果没有指定对象，则 CF 会进行提示，这里选择 `all` 表示下载所有对象
-
-## 下载指定的对象
-
-如果想下载指定的对象，除了像上面那样进行选择外，还可以直接使用 `-k`命令选择你想下载的对象
+指定存储桶
 
 ```bash
-cf alibaba oss get -b bucketName -k objectKey
+cf alibaba oss obj get -b bucketName
 ```
 
-## 指定保存的目录
+指定存储桶以及对象
 
-下载下来的对象会被默认保存在终端所在目录下，如果想保存到特定的目录下，则可以使用`-o` 命令
-
+```bash
+cf alibaba oss obj get -b bucketName -k objectName
 ```
-cf alibaba oss get -b bucketName -k objectName -o outputPath
+
+保存到指定目录
+
+```bash
+cf alibaba oss obj get -o ./result
 ```
 
 <Vssue />
@@ -33,7 +33,8 @@ cf alibaba oss get -b bucketName -k objectName -o outputPath
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月22日"
+      this.$page.lastUpdated = "2022年9月7日"
     }
   }
 </script>
+

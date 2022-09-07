@@ -4,7 +4,7 @@ module.exports = [
         title: "开始使用",
         collapsable: false,
         children: [
-            "/CF/Configuration/",
+            "/CF/Config/",
         ]
     }, {
         title: "对象存储",
@@ -24,7 +24,6 @@ module.exports = [
             "/CF/ECS/metaDataSTSToken",
             "/CF/ECS/userData",
             "/CF/ECS/reverseShell",
-            "/CF/ECS/vpc",
         ]
     }, {
         title: "云数据库",
