@@ -18,7 +18,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: '16'
       - run: |
              sed -i 's/VSSUECLIENTID/${{ secrets.VSSUECLIENTID }}/g' docs/.vuepress/config.js
              sed -i 's/VSSUECLIENTSECRET/${{ secrets.VSSUECLIENTSECRET }}/g' docs/.vuepress/config.js
