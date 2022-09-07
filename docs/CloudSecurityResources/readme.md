@@ -147,8 +147,8 @@ title: 云安全资源
 
 #### 辅助工具
 
-* 在线搜索目标网站下的 AWS 资产 recon.cloud [地址](https://recon.cloud/)
-* 在线搜索公开的 S3 存储桶 buckets.grayhatwarfare.com [地址](https://buckets.grayhatwarfare.com/)
+* 在线搜索目标网站下的云资产 recon.cloud [地址](https://recon.cloud/)
+* 在线搜索公开的存储桶 buckets.grayhatwarfare.com [地址](https://buckets.grayhatwarfare.com/)
 * 在线多云管理平台 行云管家 [地址](https://www.cloudbility.com/) `由「半人间丶」师傅补充，感谢支持`
 * 腾讯云轻量服务器管理工具 [地址](https://www.qqvps.com/d/1011) `由「tanger」师傅补充，感谢支持`
 * 腾讯云官方 COS 辅助工具 [地址](https://cosbrowser.cloud.tencent.com/) `由「Esonhugh」师傅补充，感谢支持`
@@ -169,7 +169,7 @@ title: 云安全资源
 * 阿里云 AccessKey 利用工具 aliyun-accesskey-Tools [地址](https://github.com/mrknow001/aliyun-accesskey-Tools) ![GitHub stars](https://img.shields.io/github/stars/mrknow001/aliyun-accesskey-Tools) `由「半人间丶」师傅补充，感谢支持`
 * 云上公开资产枚举 CloudBrute [地址](https://github.com/0xsha/CloudBrute) ![GitHub stars](https://img.shields.io/github/stars/0xsha/CloudBrute)
 * 阿里云 ECS、策略组辅助小工具 alicloud-tools [地址](https://github.com/iiiusky/alicloud-tools) ![GitHub stars](https://img.shields.io/github/stars/iiiusky/alicloud-tools) `由「半人间丶」师傅补充，感谢支持`
-* 阿里云/腾讯云 AK 资源管理工具 [地址](https://github.com/wyzxxz/aksk_tool) ![Github stars](https://img.shields.io/github/stars/wyzxxz/aksk_tool) `由「Esonhugh」师傅补充，感谢支持`
+* AK 资源管理工具 [地址](https://github.com/wyzxxz/aksk_tool) ![Github stars](https://img.shields.io/github/stars/wyzxxz/aksk_tool) `由「Esonhugh」师傅补充，感谢支持`
 * GCP IAM 权限提升方法 GCP-IAM-Privilege-Escalation [地址](https://github.com/RhinoSecurityLabs/GCP-IAM-Privilege-Escalation) ![GitHub stars](https://img.shields.io/github/stars/RhinoSecurityLabs/GCP-IAM-Privilege-Escalation) `由「da Vinci【达文西】」师傅补充，感谢支持`
 * AWS AccessKey 泄漏利用工具 awsKeyTools [地址](https://github.com/Aabyss-Team/awsKeyTools)  ![GitHub stars](https://img.shields.io/github/stars/Aabyss-Team/awsKeyTools) `由「1derian」和「ShangRui-hash」师傅联合补充，感谢支持`
 * AWS 控制台接管利用工具 aws_consoler [地址](https://github.com/NetSPI/aws_consoler) ![GitHub stars](https://img.shields.io/github/stars/NetSPI/aws_consoler)

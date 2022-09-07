@@ -2,7 +2,7 @@
 title: 一键执行三要素
 ---
 
-## 一键执行三要素
+## 在阿里云上一键执行三要素
 
 使用 `-b` 命令一键执行三要素命令，快速证明权限获取，方便 HVV
 
@@ -16,14 +16,26 @@ cf alibaba ecs exec -b
 cf alibaba ecs exec -b -i i-abcdefghijklmn
 ```
 
-如果想在腾讯云下执行这些命令，只需要使用 `cf tencent` 跟上对应的命令即可。
+## 在腾讯云上一键执行三要素
+
+### 云服务器
+
+```bash
+cf tencent cvm exec -b
+```
+
+### 轻量应用服务器
+
+```bash
+cf tencent lh exec -b
+```
 
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月18日"
+      this.$page.lastUpdated = "2022年9月7日"
     }
   }
 </script>

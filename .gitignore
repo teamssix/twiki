@@ -1,7 +1,8 @@
-node_modules
-assets/.DS_Store
-CloudService/.DS_Store
-CloudNative/.DS_Store
-img/.DS_Store
+# files
 .DS_Store
+
+# folder
+node_modules
+img
 img alias
+docs

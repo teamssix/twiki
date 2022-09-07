@@ -18,20 +18,18 @@ title: 调整输出的信息等级
 
  在 CF 的任何命令中，都可以使用 `--logLevel` 参数去指定输出信息的等级。
 
-在这几个等级中，debug 是最常用的等级，例如以 debug 输出等级列出所有的云服务。
+在这几个等级中，debug 是比较常用的等级，例如以 debug 输出等级列出阿里云的 ECS 实例。
 
 ```bash
-cf ls --logLevel debug
+cf alibaba ecs ls --logLevel debug
 ```
-
-   <img width="800" src="/img/1656648871.png">
 
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月1日"
+      this.$page.lastUpdated = "2022年9月7日"
     }
   }
 </script>
