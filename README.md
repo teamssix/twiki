@@ -21,7 +21,7 @@ docker run --name twiki -d -p 7777:80 teamssix/twiki:main
 
 ### 手动部署
 
-> 需要本地先安装 node 且版本最好大于或等于 16
+> 需要本地先安装 node 且版本需要大于或等于 12
 
 ```bash
 git clone https://github.com/teamssix/TWiki.git --depth 1
