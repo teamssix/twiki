@@ -29,10 +29,10 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 
 当前已支持的云：
 
-- [x] 阿里云
-- [x] 腾讯云
-- [ ] AWS（预计在 2022 年 10 月 14 日前支持）
-- [ ] 华为云（预计在 2022 年 12 月 14 日前支持）
+* 阿里云
+* 腾讯云
+* AWS（预计在 2022 年 10 月 14 日前支持）
+* 华为云（预计在 2022 年 12 月 14 日前支持）
 
 功能排期可参考：[github.com/teamssix/cf/discussions/130](https://github.com/teamssix/cf/discussions/130)
 
