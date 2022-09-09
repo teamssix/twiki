@@ -4,6 +4,22 @@ title: 更新日志
 <center><h1>更新日志</h1></center>
 
 ---
+## 2022.9.7
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline>
+<a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>CF 发布 <a href="https://github.com/teamssix/cf/releases/tag/v0.4.0" target="_blank">v0.4.0</a> 版本，更新<a href="/CF/" target="_blank"> CF 使用手册 </a>板块
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2022.8.15
 
 <p></p> 
