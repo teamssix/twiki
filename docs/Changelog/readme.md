@@ -4,6 +4,29 @@ title: 更新日志
 <center><h1>更新日志</h1></center>
 
 ---
+## 2022.9.14
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《记录一次平平无奇的云上攻防过程》<a href="/CF/Cases/cfCase2.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>记录一次平平无奇的云上攻防过程</li>
+				</ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2022.9.7
 
 <p></p> 
