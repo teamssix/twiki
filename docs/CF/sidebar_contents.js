@@ -43,6 +43,7 @@ module.exports = [
         collapsable: false,
         children: [
             "/CF/Cases/",
+            "/CF/Cases/cfCase2",
         ]
     }, {
         title: "更多",
