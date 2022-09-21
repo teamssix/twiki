@@ -18,6 +18,9 @@ title: 更新日志
       <br/>
         <ul>
           <li>Azure Cloud Shell 命令注入窃取用户的访问令牌</li>
+          <li>Gafnit Amiga 的个人博客</li>
+          <li>Nick Frichette 的个人博客</li>
+          <li>Chris Farris 的个人博客</li>
 				</ul>
     </p>
     </a-timeline-item>
