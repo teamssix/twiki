@@ -10,6 +10,12 @@ title: 列出对象存储服务
 cf alibaba oss ls
 ```
 
+如果想指定获取对象的数量，可以使用 `-n` 或者 `--number` 参数
+
+```bash
+cf alibaba oss ls -n 100
+```
+
 如果想指定区域，可以使用 `-r` 或者 `--region` 参数
 
 ```bash
@@ -28,7 +34,7 @@ cf alibaba oss ls -r cn-beijing
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年9月7日"
+      this.$page.lastUpdated = "2022年9月23日"
     }
   }
 </script>
