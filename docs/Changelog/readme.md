@@ -5,6 +5,30 @@ title: 更新日志
 
 ---
 
+## 2022.9.26
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>Alibaba Cloud Certified Associate, ACA</li>
+          <li>Azure Security Engineer Associate</li>
+          <li>AWS Certified Security - Specialty</li>
+          <li>Certified Cloud Security Professional, CCSP</li>
+          <li>CompTIA Cloud+</li>
+          <li>GCP Professional Cloud Security Engineer</li>
+				</ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2022.9.21
 
 <p></p> 
