@@ -5,6 +5,21 @@ title: 更新日志
 
 ---
 
+## 2022.10.2
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《安装 CF》<a href="/CF/Config" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2022.9.26
 
 <p></p> 
