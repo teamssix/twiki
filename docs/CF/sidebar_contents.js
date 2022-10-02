@@ -5,6 +5,7 @@ module.exports = [
         collapsable: false,
         children: [
             "/CF/Config/",
+            "/CF/Config/config",
         ]
     }, {
         title: "对象存储",

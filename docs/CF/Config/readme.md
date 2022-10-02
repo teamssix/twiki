@@ -1,57 +1,28 @@
 ---
-title: 配置与管理凭证
+title: 安装 CF
 ---
 
-## 配置凭证
+## 安装 CF
 
-CF 支持两种配置访问凭证的方法，一种是利用永久的访问凭证去配置，一种是利用临时的访问凭证去配置。
+直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的二进制文件，在命令行中运行即可，目前支持以下系统：
 
-### 配置凭证
+|            文件名            |  系统   |                架构                | 位数 |
+| :--------------------------: | :-----: | :--------------------------------: | :--: |
+| cf_x.x.x_darwin_amd64.tar.gz |  MacOS  |   AMD（适用于 Intel 芯片的 Mac）   |  64  |
+| cf_x.x.x_darwin_arm64.tar.gz |  MacOS  | ARM（适用于苹果 M 系列芯片的 Mac） |  64  |
+|  cf_x.x.x_linux_386.tar.gz   |  Linux  |                AMD                 |  32  |
+| cf_x.x.x_linux_amd64.tar.gz  |  Linux  |                AMD                 |  64  |
+| cf_x.x.x_linux_arm64.tar.gz  |  Linux  |                ARM                 |  64  |
+|   cf_x.x.x_windows_386.zip   | Windows |                AMD                 |  32  |
+|  cf_x.x.x_windows_amd64.zip  | Windows |                AMD                 |  64  |
+|  cf_x.x.x_windows_arm64.zip  | Windows |                ARM                 |  64  |
 
-```bash
-cf config
-```
-
-在配置凭证的时候 `Access Key ID` 和 `Access Key Secret` 参数是必填的，只有当配置临时访问凭证时，才需要填 `STS Token` 参数。
-
-> 配置文件被会存储在 `~/.config/cf/cache.db` 中
-
-### 删除凭证
-
-```bash
-cf config del 
-```
-
-### 查看凭证
-
-```bash
-cf config ls
-```
-
-使用 ls 命令列出配置的时候，如果配置内容过长，这时输出内容会进行部分省略展示，如果想列出凭证的全部内容，可以使用 `-a` 或者`--all`命令。
-
-```
-cf config ls -a
-```
-
-### 修改配置
-
-```bash
-cf config mf
-```
-
-### 切换配置
-
-```bash
-cf config sw
-```
-
-<Vssue />
+<Vssue/>
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年9月7日"
+      this.$page.lastUpdated = "2022年10月2日"
     }
   }
 </script>
