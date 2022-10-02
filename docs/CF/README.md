@@ -38,7 +38,7 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 
 ## 安装
 
-直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的二进制文件，在命令行中运行即可，目前支持以下系统：
+直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的压缩文件，解压后在命令行中运行即可，目前支持以下系统：
 
 |            文件名            |  系统   |                架构                | 位数 |
 | :--------------------------: | :-----: | :--------------------------------: | :--: |
@@ -50,6 +50,21 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 |   cf_x.x.x_windows_386.zip   | Windows |                AMD                 |  32  |
 |  cf_x.x.x_windows_amd64.zip  | Windows |                AMD                 |  64  |
 |  cf_x.x.x_windows_arm64.zip  | Windows |                ARM                 |  64  |
+
+### MacOS && Linux
+
+> 注意将下面命令中的地址和文件名替换成 [releases](https://github.com/teamssix/cf/releases) 里的值。
+
+```bash
+wget https://github.com/teamssix/cf/releases/download/xxx/cf_xxx_xxx_xxx.tar.gz
+tar zxvf cf_xxx_xxx_xxx.tar.gz
+chmod +x cf
+./cf
+```
+
+### Windows
+
+直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的 ZIP 文件，解压后，在命令行中运行即可。
 
 ## 使用案例
 
