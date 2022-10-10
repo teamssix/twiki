@@ -16,6 +16,8 @@ cf alibaba oss ls
 cf alibaba oss ls -n 100
 ```
 
+> 当 CF 使用缓存数据时，由于对象数量已经被缓存，所以此时 -n 命令是无效的。
+
 如果想指定区域，可以使用 `-r` 或者 `--region` 参数
 
 ```bash
@@ -34,7 +36,7 @@ cf alibaba oss ls -r cn-beijing
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年9月23日"
+      this.$page.lastUpdated = "2022年10月10日"
     }
   }
 </script>
