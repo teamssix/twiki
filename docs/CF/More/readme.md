@@ -16,13 +16,18 @@ cf alibaba ls
 cf alibaba ls -r cn-beijing
 ```
 
+在 CF 中还集成了阿里云的私有区域，不过在默认情况下是不调用的，如果想遍历阿里云的私有区域，可以使用 `-a` 命令表示遍历所有区域
+
+```bash
+cf alibaba ls -a
+```
+
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年9月7日"
+      this.$page.lastUpdated = "2022年10月12日"
     }
   }
 </script>
-

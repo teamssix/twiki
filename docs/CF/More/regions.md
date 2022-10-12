@@ -12,6 +12,12 @@ title: 列出所有的区域
 cf alibaba regions ecs
 ```
 
+在 CF 中还集成了阿里云的 ECS 私有区域，不过在默认情况下是不调用的，如果想列出阿里云的私有区域，可以使用 `-a` 命令列出所有区域
+
+```bash
+cf alibaba regions ecs -a
+```
+
 列出阿里云 RDS 的可用区域
 
 ```bash
@@ -31,7 +37,7 @@ cf tencent regions cvm
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年9月7日"
+      this.$page.lastUpdated = "2022年10月12日"
     }
   }
 </script>

@@ -28,6 +28,12 @@ cf alibaba ecs ls -i i-abcdefghijklmn
 cf alibaba ecs ls --running
 ```
 
+在 CF 中还集成了阿里云的私有区域，不过在默认情况下是不调用的，如果想遍历阿里云的私有区域，可以使用 `-a` 命令表示遍历所有区域
+
+```bash
+cf alibaba ecs ls -a
+```
+
 ## 列出腾讯云的弹性计算服务
 
 ### 云服务器
@@ -62,7 +68,7 @@ cf tencent lh ls
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年9月7日"
+      this.$page.lastUpdated = "2022年10月12日"
     }
   }
 </script>

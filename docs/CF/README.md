@@ -25,13 +25,13 @@ CF 是一个云环境利用框架，适用于在红队场景中对云上内网�
 
 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases)
 
-<img width="1000" src="/img/1663940597.png"><br>
+<img width="1000" src="/img/1665545404.png"><br>
 
 当前已支持的云：
 
 * 阿里云
 * 腾讯云
-* AWS（预计在 2022 年 10 月 14 日前支持）
+* AWS
 * 华为云（预计在 2022 年 12 月 14 日前支持）
 
 功能排期可参考：[github.com/teamssix/cf/discussions/130](https://github.com/teamssix/cf/discussions/130)
@@ -75,7 +75,7 @@ chmod +x cf
 
 ## 简单上手
 
-<img width="900" src="/img/1662366701.png">
+<img width="900" src="/img/1665545933.png">
 
 > 这里以阿里云为例，其他更多操作可以查看上面的使用手册。
 
@@ -117,7 +117,7 @@ cf alibaba ls
 cf alibaba ecs exec -h
 ```
 
-<img width="1000" src="/img/1662542058.png">
+<img width="1000" src="/img/1665546062.png">
 
 一键为所有实例执行三要素，方便 HVV
 
