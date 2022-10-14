@@ -8,6 +8,13 @@ module.exports = [
             "/CF/Config/config",
         ]
     }, {
+        title: "访问控制",
+        collapsable: false,
+        children: [
+            "/CF/RAM/",
+            "/CF/RAM/lsPermissions",
+        ]
+    }, {
         title: "对象存储",
         collapsable: false,
         children: [
@@ -31,13 +38,6 @@ module.exports = [
         collapsable: false,
         children: [
             "/CF/RDS/",
-        ]
-    }, {
-        title: "访问控制",
-        collapsable: false,
-        children: [
-            "/CF/RAM/",
-            "/CF/RAM/lsPermissions",
         ]
     }, {
         title: "使用案例",
