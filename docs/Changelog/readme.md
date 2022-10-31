@@ -4,6 +4,32 @@ title: 更新日志
 <center><h1>更新日志</h1></center>
 
 ---
+## 2022.10.31
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>绿盟技术博客</li>
+          <li>CNCF</li>
+          <li>容器魔方</li>
+          <li>云计算D1net</li>
+          <li>云原生社区动态</li>
+          <li>大可不加冰</li>
+          <li>一次简单的"云"上野战记录</li>
+          <li>S3 公开存储桶密钥扫描工具 S3cret Scanner</li>
+          <li>AWS Redshift JDBC Driver RCE</li>
+				</ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
 
 ## 2022.10.19
 
