@@ -77,6 +77,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
                     src="/img/1654854214.png"  style="width: 100px;" /><br />Esonhugh</a></td>
  				<td align="center"><img alt="一生热爱"
                     src="/img/1657203872.png"  style="width: 100px;" /><br />一生热爱</a></td>
+				<td align="center"><img alt="Kfzz1"
+                    src="/img/1667370152.png"  style="width: 100px;" /><br />Kfzz1</a></td>
 		</tr>
 </table>
 
