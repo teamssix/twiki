@@ -80,9 +80,9 @@ title: 云安全资源
 
 ### 4 书籍
 
-《云原生安全-攻防实践与体系构建》
-
-《Hacking Kubernetes》
+* 《云原生安全-攻防实践与体系构建》
+* 《Hacking Kubernetes》
+* 《Hands-On AWS Penetration Testing with Kali Linux》
 
 ### 5 视频
 
