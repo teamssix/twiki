@@ -19,9 +19,22 @@ title: 更新日志
           <li>《Hands-On AWS Penetration Testing with Kali Linux》</li>
 				</ul>
     </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「Kfzz1」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>Azure 靶场 AzureGoat</li>
+				</ul>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>文库<a href="/" target="_blank"> 首页 </a>贡献者添加「Kfzz1」师傅，感谢支持<br/>
+      </p>
     </a-timeline-item>
    </a-timeline>
 </template>
+
 
 ## 2022.10.31
 

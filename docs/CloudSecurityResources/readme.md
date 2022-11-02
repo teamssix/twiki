@@ -199,7 +199,6 @@ title: 云安全资源
 * AWS 控制台接管利用工具 aws_consoler [地址](https://github.com/NetSPI/aws_consoler) ![GitHub stars](https://img.shields.io/github/stars/NetSPI/aws_consoler)
 * 阿里云 AccessKey 泄漏利用工具 AliyunAccessKeyTools [地址](https://github.com/NS-Sp4ce/AliyunAccessKeyTools) ![GitHub stars](https://img.shields.io/github/stars/NS-Sp4ce/AliyunAccessKeyTools) `由「半人间丶」师傅补充，感谢支持`
 * 腾讯云 AccessKey 利用工具 Tencent_Yun_tools [地址](https://github.com/freeFV/Tencent_Yun_tools) ![GitHub stars](https://img.shields.io/github/stars/freeFV/Tencent_Yun_tools)
-* AWS Redshift JDBC Driver RCE [地址](https://github.com/p1n93r/redshift-jdbc-RCE) ![GitHub stars](https://img.shields.io/github/stars/p1n93r/redshift-jdbc-RCE)
 
 ### 2 云原生工具
 
@@ -243,6 +242,7 @@ title: 云安全资源
 * 云原生靶场部署工具 metarget [地址](https://github.com/Metarget/metarget) ![GitHub stars](https://img.shields.io/github/stars/Metarget/metarget)
 * AWS 靶场 AWSGoat [地址](https://github.com/ine-labs/AWSGoat) ![GitHub stars](https://img.shields.io/github/stars/ine-labs/AWSGoat)
 * 多云靶场搭建工具 TerraformGoat  [地址](https://github.com/HuoCorp/TerraformGoat) ![GitHub stars](https://img.shields.io/github/stars/HuoCorp/TerraformGoat)
+* Azure 靶场  AzureGoat [地址](https://github.com/ine-labs/AzureGoat)  ![GitHub stars](https://img.shields.io/github/stars/ine-labs/AzureGoat)
 
 ## 贡献者 :confetti_ball:
 
@@ -280,6 +280,8 @@ title: 云安全资源
 		<tr>
         <td align="center"><img alt="Esonhugh"
                     src="/img/1654854214.png"  style="width: 100px;" /><br />Esonhugh</a></td>
+				<td align="center"><img alt="Kfzz1"
+                    src="/img/1667370152.png"  style="width: 100px;" /><br />Kfzz1</a></td>
 		</tr>
 </table>
 
