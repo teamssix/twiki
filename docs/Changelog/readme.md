@@ -4,6 +4,29 @@ title: 更新日志
 <center><h1>更新日志</h1></center>
 
 ---
+## 2022.11.3
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>AWS 枚举（第一部分）（英文）</li>
+          <li>AWS 权限提升（英文）</li>
+          <li>AWS IAM 权限枚举工具 Principal Mapper</li>
+          <li>AWS IAM 权限枚举工具 enumerate-iam</li>
+				</ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2022.11.2
 
 <p></p> 
