@@ -4,6 +4,28 @@ title: 更新日志
 <center><h1>更新日志</h1></center>
 
 ---
+
+## 2022.11.4
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「一生热爱」师傅补充的文库信息，感谢「一生热爱」师傅贡献的以下文章：
+        <br/>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《K8s 集群渗透》<a href="/CloudNative/Kubernetes/k8s-cluster-penetration.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2022.11.3
 
 <p></p> 

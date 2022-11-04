@@ -30,6 +30,7 @@ module.exports = [
             "/CloudNative/Kubernetes/k8s-risks",
             "/CloudNative/Kubernetes/CVE-2018-1002105",
             "/CloudNative/Kubernetes/k8s-var-log-escape",
+            "/CloudNative/Kubernetes/k8s-cluster-penetration",
         ]
     }, {
         title: "Terraform",
