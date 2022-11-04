@@ -290,11 +290,12 @@ title: 云安全资源
 </table>
 
 
-
 [想要一起补充？](/About/Contribute.html)
 
 <p>&nbsp; </p> 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=teamssix/awesome-cloud-security&type=Timeline)](https://wiki.teamssix.com/)
+
+<div align=center><img width="700" src="/img/wechat.png"></div><br>
 
 <Vssue />
