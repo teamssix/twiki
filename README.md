@@ -85,7 +85,7 @@ build 完之后，将 docs/.vuepress/dist 目录下的文件复制到你的 ngin
 
 首先来看文库首页，文库主要分成了三个板块，分别为`云服务`、`云原生`、`云安全资源`
 
-![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202207072257357.png)
+![](./docs/.vuepress/public/img/wiki.teamssix.com_.png)
 
 首先来看`云安全资源`板块，这个板块是我个人觉着整个知识库较为与众不同的地方，在这里可以看到汇总的云安全资源，比如云安全相关的文章、公众号、工具、靶场等等。
 
