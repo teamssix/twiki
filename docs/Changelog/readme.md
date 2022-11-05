@@ -595,15 +595,6 @@ title: 更新日志
 
 <template>
   <a-timeline>
-<a-timeline-item>
-      <p>
-        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
-      <br/>
-        <ul>
-          <li>云安全漏洞数据库</li>
-				</ul>
-    </p>
-    </a-timeline-item>
   <a-timeline-item>
       <p>
         <a-tag color="green">文库动态</a-tag>增加<a href="/CF/" target="_blank"> CF 使用手册 </a>板块
