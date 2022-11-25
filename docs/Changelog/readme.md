@@ -5,6 +5,26 @@ title: 更新日志
 
 ---
 
+## 2022.11.25
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>AWS 安全公告（英文）</li>
+          <li>0xd4y Hacking in the Cloud（英文）</li>
+        </ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2022.11.10
 
 <p></p> 
