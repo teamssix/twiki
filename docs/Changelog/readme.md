@@ -5,6 +5,22 @@ title: 更新日志
 
 ---
 
+## 2022.12.4
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline>
+<a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>CF 发布 v0.4.3 版本，更新<a href="/cf/" target="_blank"> CF 使用手册 </a><br/>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2022.11.25
 
 <p></p> 
