@@ -16,10 +16,21 @@ cf config
 
 > 配置文件被会存储在 `~/.config/cf/cache.db` 中
 
+在 v0.4.3 版本中，对 config 命令加入了自动识别本地访问密钥的功能，当用户在配置访问密钥的时候，CF 会自动识别本地是否存在访问密钥，如果存在的话，则会提示用户是否将其导入到 CF，CF 所识别的文件地址和环境变量如下：
+
+| 云提供商 |   类型   |                             对象                             |
+| :------: | :------: | :----------------------------------------------------------: |
+|  阿里云  | 配置文件 |                    ~/.aliyun/config.json                     |
+|  阿里云  | 环境变量 | ALIBABACLOUD_ACCESS_KEY_ID, ALIBABACLOUD_ACCESS_KEY_SECRET, SECURITY_TOKEN |
+|  腾讯云  | 配置文件 |                    ~/.tccli/*.credential                     |
+|  腾讯云  | 环境变量 |       TENCENTCLOUD_SECRET_ID, TENCENTCLOUD_SECRET_KEY        |
+|   AWS    | 配置文件 |                      ~/.aws/credentials                      |
+|   AWS    | 环境变量 | AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_SESSION_TOKEN  |
+
 ### 删除凭证
 
 ```bash
-cf config del 
+cf config del
 ```
 
 ### 查看凭证
@@ -51,7 +62,8 @@ cf config sw
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年9月7日"
+      this.$page.lastUpdated = "2022年12月4日"
     }
   }
 </script>
+

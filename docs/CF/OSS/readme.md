@@ -2,7 +2,14 @@
 title: 列出对象存储服务
 ---
 
-## 列出对象存储服务
+::: warning 注意
+
+* 为了提高程序运行速度，当获取一次结果后，获取的结果会缓存下来，缓存文件为 `~/.config/cf/cache.db`
+* 如果不想使用缓存数据，可以在执行命令的时候加上 `--flushCache` 参数
+
+::: 
+
+## 列出阿里云 OSS 对象存储服务
 
 使用以下命令列出 OSS 对象存储服务
 
@@ -36,19 +43,34 @@ cf alibaba oss ls -b bucket_name
 cf alibaba oss ls -b bucket_name -r cn-hangzhou
 ```
 
-::: warning 注意
+## 列出 AWS S3 对象存储服务
 
-* 为了提高程序运行速度，当获取一次结果后，获取的结果会缓存下来，缓存文件为 `~/.config/cf/cache.db`
-* 如果不想使用缓存数据，可以在执行命令的时候加上 `--flushCache` 参数
+使用以下命令列出 S3 对象存储服务
 
-::: 
+```bash
+cf aws s3 ls
+```
+
+如果想指定获取对象的数量，可以使用 `-n` 或者 `--number` 参数
+
+```bash
+cf aws s3 ls -n 100
+```
+
+> 当 CF 使用缓存数据时，由于对象数量已经被缓存，所以此时 -n 命令是无效的。
+
+如果想指定区域，可以使用 `-r` 或者 `--region` 参数
+
+```bash
+cf aws s3 ls -r us-east-1
+```
 
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年10月12日"
+      this.$page.lastUpdated = "2022年12月4日"
     }
   }
 </script>
