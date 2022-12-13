@@ -26,6 +26,9 @@ cf config
 |  腾讯云  | 环境变量 |       TENCENTCLOUD_SECRET_ID, TENCENTCLOUD_SECRET_KEY        |
 |   AWS    | 配置文件 |                      ~/.aws/credentials                      |
 |   AWS    | 环境变量 | AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_SESSION_TOKEN  |
+|  华为云  | 配置文件 |                  ~/.huaweicloud/credentials                  |
+|  华为云  | 环境变量 | HUAWEICLOUD_SDK_AK, HUAWEICLOUD_SDK_SK, HUAWEICLOUD_SDK_SECURITY_TOKEN |
+|  华为云  | 环境变量 | OBS_ACCESS_KEY_ID, OBS_SECRET_ACCESS_KEY, OBS_SECURITY_TOKEN |
 
 ### 删除凭证
 
@@ -51,6 +54,12 @@ cf config ls -a
 cf config mf
 ```
 
+## 扫描本地配置
+
+```bash
+cf config scan
+```
+
 ### 切换配置
 
 ```bash
@@ -62,7 +71,7 @@ cf config sw
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年12月4日"
+      this.$page.lastUpdated = "2022年12月13日"
     }
   }
 </script>

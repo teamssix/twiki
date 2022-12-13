@@ -65,12 +65,34 @@ cf aws s3 ls -n 100
 cf aws s3 ls -r us-east-1
 ```
 
+## 列出华为云 OBS 对象存储服务
+
+使用以下命令列出 OBS 对象存储服务
+
+```bash
+cf huawei obs ls
+```
+
+如果想指定获取对象的数量，可以使用 `-n` 或者 `--number` 参数
+
+```bash
+cf huawei obs ls -n 100
+```
+
+> 当 CF 使用缓存数据时，由于对象数量已经被缓存，所以此时 -n 命令是无效的。
+
+如果想指定区域，可以使用 `-r` 或者 `--region` 参数
+
+```bash
+cf huawei obs ls -r cn-north-4
+```
+
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年12月4日"
+      this.$page.lastUpdated = "2022年12月13日"
     }
   }
 </script>

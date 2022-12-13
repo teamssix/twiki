@@ -25,16 +25,14 @@ CF 是一个云环境利用框架，适用于在红队场景中对云上内网�
 
 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases)
 
-<img width="1000" src="/img/1670139855.png"><br>
+<img width="1000" src="/img/1670938640.png"><br>
 
 当前已支持的云：
 
 * 阿里云
 * 腾讯云
 * AWS
-* 华为云（预计在 2022 年 12 月 14 日前支持）
-
-功能排期可参考：[github.com/teamssix/cf/discussions/130](https://github.com/teamssix/cf/discussions/130)
+* 华为云
 
 ## 安装
 
@@ -186,7 +184,7 @@ CF 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年12月4日"
+      this.$page.lastUpdated = "2022年12月13日"
     }
   }
 </script>
