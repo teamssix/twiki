@@ -54,7 +54,7 @@ cf config ls -a
 cf config mf
 ```
 
-## 扫描本地配置
+### 扫描本地配置
 
 ```bash
 cf config scan
@@ -75,4 +75,3 @@ export default {
     }
   }
 </script>
-
