@@ -296,7 +296,7 @@ title: 云安全资源
 </table>
 
 
-[想要一起补充？](/About/Contribute.html)
+### 想要一起补充？直接给本项目提 PR 或者使用右侧链接中的方法：[补充说明地址](/About/Contribute.html)
 
 <p>&nbsp; </p> 
 
