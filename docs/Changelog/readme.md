@@ -5,6 +5,28 @@ title: 更新日志
 
 ---
 
+## 2022.12.20
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「Kfzz1」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>云渗透笔记 CloudPentestCheatsheets（英文）</li>
+          <li>多云资产收集工具 cloudlist</li>
+          <li>BloodHound 收集 Azure 数据工具 AzureHound</li>
+				</ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2022.12.16
 
 <p></p> 
