@@ -34,6 +34,8 @@ title: 云安全资源
 
 ### 2 博客资讯
 
+* 火线安全每日云安全资讯 [地址](https://cloudsec.huoxian.cn/docs/information)
+* 腾讯云鼎每日云安全资讯 [地址](https://cloudsec.tencent.com/info/list.html)
 * TeamsSix 的个人博客 [地址](https://teamssix.com/)
 * Lightspin 博客（英文）[地址](https://blog.lightspin.io/)
 * Sysdig 云安全报告资讯（英文）[地址](https://sysdig.com/resources/reports/)
@@ -234,8 +236,8 @@ title: 云安全资源
 * k8s 安全风险检测工具 StackRox [地址](https://github.com/stackrox/stackrox) [工具介绍](https://www.stackrox.io/blog/open-source-stackrox-is-now-available/) ![GitHub stars](https://img.shields.io/github/stars/stackrox/stackrox) `由「m4d3bug」师傅补充，感谢支持`
 * 基于 kubectl 的红队 k8s 安全评估工具 red kube [地址](https://github.com/lightspin-tech/red-kube) ![GitHub stars](https://img.shields.io/github/stars/lightspin-tech/red-kube) `由「zhengjim」师傅补充，感谢支持`
 * 开源云原生安全防护平台 neuvector [地址](https://github.com/neuvector/neuvector) ![GitHub stars](https://img.shields.io/github/stars/neuvector/neuvector) `由「Idle Life」师傅补充，感谢支持`
-* Terraform 可视化 [地址](https://github.com/hieven/terraform-visual) ![GitHub stars](https://img.shields.io/github/stars/hieven/terraform-visual) 
 * k8s 调试辅助工具 validkube [地址](https://github.com/komodorio/validkube) ![GitHub stars](https://img.shields.io/github/stars/komodorio/validkube)
+* Terraform 可视化 [地址](https://github.com/hieven/terraform-visual) ![GitHub stars](https://img.shields.io/github/stars/hieven/terraform-visual) 
 * 容器逃逸检测工具 container-escape-check [地址](https://github.com/teamssix/container-escape-check) ![GitHub stars](https://img.shields.io/github/stars/teamssix/container-escape-check)
 
 
@@ -254,8 +256,8 @@ title: 云安全资源
 * AWS 靶场部署工具 cloudgoat [地址](https://github.com/RhinoSecurityLabs/cloudgoat) ![GitHub stars](https://img.shields.io/github/stars/RhinoSecurityLabs/cloudgoat)
 * AWS 靶场 AWSGoat [地址](https://github.com/ine-labs/AWSGoat) ![GitHub stars](https://img.shields.io/github/stars/ine-labs/AWSGoat)
 * 云原生靶场部署工具 metarget [地址](https://github.com/Metarget/metarget) ![GitHub stars](https://img.shields.io/github/stars/Metarget/metarget)
-* 多云靶场搭建工具 TerraformGoat  [地址](https://github.com/HuoCorp/TerraformGoat) ![GitHub stars](https://img.shields.io/github/stars/HuoCorp/TerraformGoat)
 * Azure 靶场  AzureGoat [地址](https://github.com/ine-labs/AzureGoat)  ![GitHub stars](https://img.shields.io/github/stars/ine-labs/AzureGoat) `由「Kfzz1」师傅补充，感谢支持`
+* 多云靶场搭建工具 TerraformGoat  [地址](https://github.com/HuoCorp/TerraformGoat) ![GitHub stars](https://img.shields.io/github/stars/HuoCorp/TerraformGoat)
 
 ## 贡献者 :confetti_ball:
 

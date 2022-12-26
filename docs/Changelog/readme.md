@@ -5,6 +5,26 @@ title: 更新日志
 
 ---
 
+## 2022.12.26
+
+<p></p> 
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>火线安全每日云安全资讯</li>
+          <li>腾讯云鼎每日云安全资讯</li>
+        </ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2022.12.20
 
 <p></p> 
