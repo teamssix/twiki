@@ -13,7 +13,7 @@ module.exports = {
         (function() {
           var hm = document.createElement("script");
           hm.src = "https://hm.baidu.com/hm.js?5abe668add09d35abb6558cdf1982175";
-          var s = document.getElementsByTagName("script")[0]; 
+          var s = document.getElementsByTagName("script")[0];
           s.parentNode.insertBefore(hm, s);
         })();
             `
@@ -23,7 +23,7 @@ module.exports = {
         repo: 'teamssix',
         docsRepo: 'teamssix/TWiki',
         docsDir: 'docs',
-        docsBranch: 'main',
+        docsBranch: 'beta',
         editLinks: true,
         editLinkText: '编辑这个页面 ~',
         logo: '/img/logo.svg',
@@ -46,11 +46,12 @@ module.exports = {
                 clientSecret: 'VSSUECLIENTSECRET',
                 autoCreateIssue: true
             }
-        ],[
+        ],
+        [
             '@vuepress/google-analytics',
             {
-              'ga': 'UA-233600566-1'
+                'ga': 'UA-233600566-1'
             }
-          ]
+        ]
     ]
 }
