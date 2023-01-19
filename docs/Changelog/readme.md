@@ -14,7 +14,7 @@ title: 更新日志
 <template>
   <a-timeline><a-timeline-item>
       <p>
-        <a-tag color="red">收到补充</a-tag>收到「happi0」师傅补充的文库信息，感谢「一生热爱」师傅贡献的以下文章：
+        <a-tag color="red">收到补充</a-tag>收到「happi0」师傅补充的文库信息，感谢「happi0」师傅贡献的以下文章：
         <br/>
     </p>
     </a-timeline-item><a-timeline-item>
