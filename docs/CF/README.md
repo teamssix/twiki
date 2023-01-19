@@ -177,6 +177,8 @@ CF 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 * 本工具仅用于合法合规用途，严禁用于违法违规用途。
 * 本工具中所涉及的风险点均属于租户责任，与云厂商无关。
 
+<div align=center><img width="400" src="/img/1672820508.JPG"></div><br>
+
 <div align=center><b>感谢你使用我的工具</b></div>
 
 <Vssue />
