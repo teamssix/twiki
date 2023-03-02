@@ -21,7 +21,7 @@ title: 容器逃逸方法检测指北
 首先对于 RT 而言，需要先判断当前环境是不是容器环境，可以直接使用下面的命令去判断
 
 ```bash
-cat /proc/1/cgroup | grep -qi docker && echo "Is Docker" || echo "Not Docker"
+cat /proc/1/cgroup | grep -qi docker && echo "Not Docker" || echo "Is Docker"
 ```
 
 如果返回 Is Docker，说明当前是 Docker 容器环境，反之亦然。
