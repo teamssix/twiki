@@ -44,5 +44,11 @@ module.exports = [
             "/CloudService/EC2/console-takeover",
             "/CloudService/EC2/aliyun-console-takeover"
         ]
+    }, {
+        title: "CloudFront",
+        collapsable: false,
+        children: [
+            "/CloudService/CloudFront/"
+        ]
     }
 ];
