@@ -73,12 +73,36 @@ cf tencent console cancel
 cf tencent console ls
 ```
 
+## 在华为云上一键接管控制台
+
+```bash
+cf huawei console
+```
+
+接管控制台的时候默认会创建一个名称为 crossfire 的用户，如果想改成其他用户名可以使用 `-u` 参数
+
+```bash
+cf huawei console -u teamssix
+```
+
+### 取消接管控制台
+
+```bash
+cf huawei console cancel
+```
+
+### 查看接管控制台的信息
+
+```bash
+cf huawei console ls
+```
+
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年9月7日"
+      this.$page.lastUpdated = "2023年4月29日"
     }
   }
 </script>
