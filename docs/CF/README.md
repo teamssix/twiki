@@ -25,7 +25,7 @@ CF 是一个云环境利用框架，适用于在红队场景中对云上内网�
 
 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases)
 
-<img width="1000" src="/img/1670938640.png"><br>
+<img width="1000" src="/img/1682766078.png"><br>
 
 当前已支持的云：
 
@@ -36,7 +36,9 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 
 ## 安装
 
-直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的压缩文件，解压后在命令行中运行即可，目前支持以下系统：
+直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的压缩文件，解压后在命令行中运行即可。
+
+<details> <summary>目前支持的系统</summary><br>
 
 |            文件名            |  系统   |                架构                | 位数 |
 | :--------------------------: | :-----: | :--------------------------------: | :--: |
@@ -48,6 +50,8 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 |   cf_x.x.x_windows_386.zip   | Windows |                AMD                 |  32  |
 |  cf_x.x.x_windows_amd64.zip  | Windows |                AMD                 |  64  |
 |  cf_x.x.x_windows_arm64.zip  | Windows |                ARM                 |  64  |
+
+</details>
 
 ## 使用案例
 
@@ -186,7 +190,7 @@ CF 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年12月13日"
+      this.$page.lastUpdated = "2023年4月29日"
     }
   }
 </script>
