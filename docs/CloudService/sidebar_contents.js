@@ -24,7 +24,8 @@ module.exports = [
             "/CloudService/EC2/ec2-permission-maintenance",
             "/CloudService/EC2/ec2-shared-snapshot",
             "/CloudService/EC2/ec2-subdomain-takeover",
-            "/CloudService/EC2/ec2-exec-command"
+            "/CloudService/EC2/ec2-exec-command",
+            "/CloudService/EC2/get-ecs-windows-permission"
         ]
     }, {
         title: "RDS 云数据库",
@@ -41,8 +42,8 @@ module.exports = [
             "/CloudService/IAM/",
             "/CloudService/IAM/iam-persistence",
             "/CloudService/IAM/list-attached-user-policies",
-            "/CloudService/EC2/console-takeover",
-            "/CloudService/EC2/aliyun-console-takeover"
+            "/CloudService/IAM/console-takeover",
+            "/CloudService/IAM/aliyun-console-takeover"
         ]
     }, {
         title: "CloudFront",

@@ -5,6 +5,22 @@ title: 更新日志
 
 ---
 
+## 2023.5.13
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《获取无法直接执行命令的 Windows 实例权限》<a href="/CloudService/EC2/get-ecs-windows-permission.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.4.29
 
 <p></p>
