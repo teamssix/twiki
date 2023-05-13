@@ -1,7 +1,7 @@
 ---
-title: 利用 aws cli 执行命令
+title: 利用 AWS CLI 执行命令
 ---
-<center><h1>利用 aws cli 执行命令</h1></center>
+<center><h1>利用 AWS CLI 执行命令</h1></center>
 
 ---
 
@@ -38,7 +38,7 @@ aws ssm list-command-invocations \
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月14日"
+      this.$page.lastUpdated = "2022 年 7 月 14 日"
     }
   }
 </script>
