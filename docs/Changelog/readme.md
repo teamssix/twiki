@@ -5,6 +5,26 @@ title: 更新日志
 
 ---
 
+## 2023.5.17
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「cr」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>在线免费的 AWS 渗透测试靶场 Free AWS Security Labs</li>
+        </ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.5.13
 
 <p></p>
