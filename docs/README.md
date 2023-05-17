@@ -13,7 +13,7 @@ features:
 - title: 开放
   details: 任何人都可以一起补充文库，欢迎你的来到
 footerColumn: 2
-footerWrap: 
+footerWrap:
 - headline: 致谢
   items:
   - title: 狼组 Wiki
@@ -81,6 +81,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
                     src="/img/1667370152.png"  style="width: 100px;" /><br />Kfzz1</a></td>
         <td align="center"><img alt="happi0"
                     src="/img/1674129072.png"  style="width: 100px;" /><br />happi0</a></td>
+        <td align="center"><img alt="cr"
+                    src="/img/1684313513.png"  style="width: 100px;" /><br />cr</a></td>
 		</tr>
 </table>
 
@@ -89,7 +91,7 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
 
 [一起补充文库？](/About/Contribute.html)
 
-<p>&nbsp; </p> 
+<p>&nbsp; </p>
 
 
 ::: warning 注意
@@ -104,4 +106,4 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
 
 :::
 
-<p>&nbsp; </p> 
+<p>&nbsp; </p>
