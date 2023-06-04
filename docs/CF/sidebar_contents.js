@@ -45,6 +45,7 @@ module.exports = [
         children: [
             "/CF/Cases/",
             "/CF/Cases/cfCase2",
+            "/CF/Cases/cf_best_practices"
         ]
     }, {
         title: "更多",

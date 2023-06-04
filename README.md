@@ -73,6 +73,8 @@ build 完之后，将 docs/.vuepress/dist 目录下的文件复制到你的 ngin
                     src="./docs/.vuepress/public/img/1667370152.png"  style="width: 100px;" /><br />Kfzz1</a></td>
         <td align="center"><img alt="happi0"
                     src="./docs/.vuepress/public/img/1674129072.png"  style="width: 100px;" /><br />happi0</a></td>
+        <td align="center"><img alt="cr"
+                    src="./docs/.vuepress/public/img/1684313513.png"  style="width: 100px;" /><br />cr</a></td>
 		</tr>
 </table>
 
