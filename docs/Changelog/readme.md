@@ -5,6 +5,23 @@ title: 更新日志
 
 ---
 
+
+## 2023.6.4
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《CF 云环境利用框架最佳实践》<a href="/cf/cases/cf_best_practices.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.5.17
 
 <p></p>
