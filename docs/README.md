@@ -83,6 +83,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
                     src="/img/1674129072.png"  style="width: 100px;" /><br />happi0</a></td>
         <td align="center"><img alt="cr"
                     src="/img/1684313513.png"  style="width: 100px;" /><br />cr</a></td>
+        <td align="center"><img alt="k.so"
+                    src="/img/1686309883.png"  style="width: 100px;" /><br />k.so</a></td>
 		</tr>
 </table>
 
