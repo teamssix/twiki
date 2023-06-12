@@ -1,7 +1,9 @@
 ---
 title: 内网接管 K8s 并逃逸实战
 ---
+
 <center><h1>RCE 进入内网接管 K8s 并逃逸进 xx 网</h1><b>本文作者：k.so</b><br><br></center>
+
 ---
 
 <div align=center><img width="600" src="/img/1686304043.gif"></div>
@@ -223,7 +225,7 @@ OK，挂上来了
 > 原文地址：[RCE进入内网接管k8s并逃逸进xx网-实战科普教程(一)](https://mp.weixin.qq.com/s/UvjKHaVzhluc22trF46uBA)
 
 
-Vssue />
+<Vssue />
 
 <script>
 export default {
