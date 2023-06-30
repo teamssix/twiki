@@ -23,10 +23,8 @@ title: CF 云环境利用框架使用手册
 
 CF 是一个云环境利用框架，适用于在红队场景中对云上内网进行横向、SRC 场景中对 Access Key 即访问凭证的影响程度进行判定、企业场景中对自己的云上资产进行自检等等。
 
-CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases)
-
 <details> <summary>CF 命令使用大全</summary><br>
-<img width="1000" src="/img/1682766078.png"><br>
+<img width="1000" src="/img/1688145889.png"><br>
 </details><br>
 
 当前已支持的云：
@@ -37,6 +35,14 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 * 华为云
 
 ## 安装
+### HomeBrew 安装
+
+```bash
+brew tap teamssix/tap
+brew install teamssix/tap/cf
+```
+
+### 下载二进制包
 
 直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的压缩文件，解压后在命令行中运行即可。
 
@@ -135,6 +141,14 @@ cf alibaba oss obj get
 
 <img width="900" src="/img/1662542708.png">
 
+一键创建 RDS 账号
+
+```bash
+cf alibaba rds account
+```
+
+<img width="900" src="/img/1688142590.png">
+
 一键升级 CF 版本
 
 ```bash
@@ -150,20 +164,35 @@ cf upgrade
 
 十分感谢各位师傅对 CF 的贡献~，如果你也想对 CF 贡献代码，请参见贡献说明：[CONTRIBUTING](https://github.com/teamssix/cf/blob/main/CONTRIBUTING.md)
 
-<table>
-    <tr>
-        <td align="center"><a href="https://github.com/teamssix"><img alt="TeamsSix"
-                    src="/img/1662546884.jpeg" style="width: 100px;"/><br />TeamsSix</a></td>
-        <td align="center"><a href="https://github.com/Amzza0x00"><img alt="Amzza0x00"
-                    src="/img/1662546910.jpeg"  style="width: 100px;" /><br />Amzza0x00</a></td>
-        <td align="center"><a href="https://github.com/Esonhugh"><img alt="Esonhugh"
-                    src="/img/1662546943.jpeg"  style="width: 100px;" /><br />Esonhugh</a></td>
-        <td align="center"><a href="https://github.com/Dawnnnnnn"><img alt="Dawnnnnnn"
-                    src="/img/1662546995.jpeg"  style="width: 100px;" /><br />Dawnnnnnn</a></td>
-        <td align="center"><a href="https://github.com/Belos-pretender"><img alt="Belos-pretender"
-                    src="/img/1662547016.jpeg"  style="width: 100px;" /><br />Belos-pretender</a></td>
-		</tr>
-</table>
+<div align=center>
+    <table>
+        <tr>
+            <td align="center">
+                <a href="https://github.com/teamssix"><img alt="TeamsSix" src="/img/1662546884.jpeg" style="width: 100px;" /><br />TeamsSix</a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Amzza0x00"><img alt="Amzza0x00" src="/img/1662546910.jpeg" style="width: 100px;" /><br />Amzza0x00</a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Esonhugh"><img alt="Esonhugh" src="/img/1662546943.jpeg" style="width: 100px;" /><br />Esonhugh</a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Dawnnnnnn"><img alt="Dawnnnnnn" src="/img/1662546995.jpeg" style="width: 100px;" /><br />Dawnnnnnn</a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Belos-pretender"><img alt="Belos-pretender" src="/img/1688146213.jpeg" style="width: 100px;" /><br />Belos-pretender</a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/0xorOne"><img alt="Kfzz1" src="/img/1688146266.jpeg" style="width: 100px;" /><br />Kfzz1</a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="https://github.com/shadowabi"><img alt="shadowabi" src="/img/1688146300.jpeg" style="width: 100px;" /><br />shadowabi</a>
+            </td>
+        </tr>
+    </table>
+</div>
 
 <a href="https://github.com/teamssix"><img src="https://repobeats.axiom.co/api/embed/30b8de6c059cbe83fe0ba44fff91136270a39ab9.svg"></a>
 
@@ -175,7 +204,7 @@ CF 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 
 ## 云安全交流群
 
-在[关于文库](/About/#云安全交流群)中，有`云安全交流群`的添加方式，在这里可以一起交流 CF 的使用和问题的反馈。
+在 CF 中我写了加入`云安全交流群`的方法，如果你能找到的话，就可以加群哦～
 
 <div align=center><img src="https://api.star-history.com/svg?repos=teamssix/cf&type=Timeline" div align=center/></div>
 

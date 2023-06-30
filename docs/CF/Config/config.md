@@ -66,12 +66,24 @@ cf config scan
 cf config sw
 ```
 
+### 查询配置所属云厂商
+
+目前已支持腾讯云、阿里云、AWS、华为云、百度云、火山引擎、金山云、京东云、GCP、七牛云、UCloud 的 AK 识别。
+
+```bash
+cf config query -a <your_access_key_id>
+```
+
+`-a` 参数用来指定 Access Key Id，该参数是必填的，当只填该参数时会仅通过正则判断所属云厂商。
+
+如果加上了 `-s` 参数指定 Secret Access Key ，或者同时加上了 `-t` 参数指定 Session Token ，则除了会调用正则外，还会调用相关接口用来判断 AK 是否可用，从而能更准确的判断 AK 所属厂商。
+
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年12月13日"
+      this.$page.lastUpdated = "2023 年 7 月 1 日"
     }
   }
 </script>

@@ -5,6 +5,23 @@ title: 更新日志
 
 ---
 
+## 2023.7.1
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+<a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>CF 发布 v0.5.0 版本，更新内容详见 <a href="/CF/updateDescription/" target="_blank"> CF 云环境利用框架现已更新至 v0.5.0 版本 </a><br/>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.6.9
 
 <p></p>

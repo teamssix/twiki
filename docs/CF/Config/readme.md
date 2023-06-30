@@ -4,6 +4,15 @@ title: 安装 CF
 
 ## 安装 CF
 
+### HomeBrew 安装（使用于 Mac、Linux 用户）
+
+```bash
+brew tap teamssix/tap
+brew install teamssix/tap/cf
+```
+
+### 下载二进制包
+
 直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的二进制文件，在命令行中运行即可，目前支持以下系统：
 
 |            文件名            |  系统   |                架构                | 位数 |
@@ -22,7 +31,7 @@ title: 安装 CF
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年12月4日"
+      this.$page.lastUpdated = "2023 年 7 月 1 日"
     }
   }
 </script>
