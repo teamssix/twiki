@@ -23,14 +23,20 @@ cf alibaba rds ls
 * 为了提高程序运行速度，当获取一次结果后，获取的结果会缓存下来，缓存目录为 `~/.config/cf/cache.db`
 * 如果不想使用缓存数据，可以在执行命令的时候加上 `--flushCache` 参数
 
-::: 
+:::
+
+在列出数据库实例时加上 -a 命令，会列出数据库实例的详细信息。
+
+```bash
+cf alibaba rds ls -a
+```
 
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年7月22日"
+      this.$page.lastUpdated = "2023 年 7 月 1 日"
     }
   }
 </script>

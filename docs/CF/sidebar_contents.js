@@ -32,12 +32,18 @@ module.exports = [
             "/CF/ECS/metaDataSTSToken",
             "/CF/ECS/userData",
             "/CF/ECS/reverseShell",
+            "/CF/ECS/userDataBackdoor",
+            "/CF/ECS/imageShare",
+
         ]
     }, {
         title: "云数据库",
         collapsable: false,
         children: [
             "/CF/RDS/",
+            "/CF/RDS/account",
+            "/CF/RDS/public",
+            "/CF/RDS/whiteList",
         ]
     }, {
         title: "使用案例",
@@ -59,6 +65,12 @@ module.exports = [
             "/CF/More/upgrade",
             "/CF/More/help",
             "/CF/More/aboutMe"
+        ]
+    }, {
+        title: "更新介绍",
+        collapsable: false,
+        children: [
+            "/CF/updateDescription/",
         ]
     },
 ];

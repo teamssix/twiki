@@ -49,6 +49,14 @@ cf alibaba console cancel
 cf alibaba console ls
 ```
 
+### 接管控制台时创建 AK
+
+在接管阿里云平台时，如果加上 -a 参数，CF 除了会自动创建用于登录控制台的子账号外，还会自动创建这个子账号的访问凭证。
+
+```bash
+cf alibaba console -a
+```
+
 ## 在腾讯云上一键接管控制台
 
 ```bash
@@ -102,7 +110,7 @@ cf huawei console ls
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2023年4月29日"
+      this.$page.lastUpdated = "2023 年 7 月 1 日"
     }
   }
 </script>
