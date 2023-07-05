@@ -5,6 +5,33 @@ title: 更新日志
 
 ---
 
+## 2023.7.5
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+    <a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>CF 使用手册增加 CF 更新日志页面，详见：<a href="/CF/Changelog" target="_blank"> CF 更新日志 </a><br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>CF 使用手册增加 CF 答疑页面，详见：<a href="/CF/More/cfQA.html" target="_blank"> CF 使用答疑 </a><br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《聊聊我为什么选择云安全》<a href="/About/why_i_choose_cloud_security.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+  </a-timeline>
+</template>
+
+
 ## 2023.7.1
 
 <p></p>
@@ -15,7 +42,7 @@ title: 更新日志
   <a-timeline>
 <a-timeline-item>
       <p>
-        <a-tag color="green">文库动态</a-tag>CF 发布 0.5.0 版本，更新内容详见 <a href="/CF/updateDescription/" target="_blank"> CF 云环境利用框架现已更新至 0.5.0 版本 </a><br/>
+        <a-tag color="green">文库动态</a-tag>CF 发布 0.5.0 版本，更新内容详见 <a href="/CF/Changelog/v0_5_0.html" target="_blank"> CF 云环境利用框架现已更新至 0.5.0 版本 </a><br/>
     </p>
     </a-timeline-item>
    </a-timeline>

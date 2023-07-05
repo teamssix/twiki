@@ -63,6 +63,7 @@ module.exports = [
             "/CF/More/logLevel",
             "/CF/More/version",
             "/CF/More/upgrade",
+            "/CF/More/cfQA",
             "/CF/More/help",
             "/CF/More/aboutMe"
         ]
@@ -70,7 +71,8 @@ module.exports = [
         title: "更新介绍",
         collapsable: false,
         children: [
-            "/CF/updateDescription/",
+            "/CF/Changelog/",
+            "/CF/Changelog/v0_5_0",
         ]
     },
 ];

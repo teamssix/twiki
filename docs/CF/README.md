@@ -71,6 +71,12 @@ brew install teamssix/tap/cf
 | 《记录一次平平无奇的云上攻防过程》 |      v0.4.0      | [zone.huoxian.cn/d/2557](https://zone.huoxian.cn/d/2557) | TeamsSix | 2022.9.14  |
 |   《我用 CF 打穿了他的云上内网》   |      v0.2.4      | [zone.huoxian.cn/d/1341-cf](https://zone.huoxian.cn/d/1341-cf) | TeamsSix | 2022.7.13  |
 
+## CF 使用答疑
+
+在 CF 项目的 [Discussions](https://github.com/teamssix/cf/discussions) 板块里，我创建了一个答疑帖，如果你遇到和 CF 相关的使用问题，可以在这里提出，我会给出相应的解答，同时这里也汇总了之前一些人问过的一些问题。
+
+CF 答疑帖地址：[github.com/teamssix/cf/discussions/250](https://github.com/teamssix/cf/discussions/250)
+
 ## 简单上手
 
 <img width="900" src="/img/1665545933.png">
