@@ -234,9 +234,10 @@ title: 云安全资源
 * 检查生产环境中部署容器的最佳实践 Docker_Bench_Security [地址](https://github.com/docker/docker-bench-security) ![GitHub stars](https://img.shields.io/github/stars/docker/docker-bench-security) `由「zxynull」师傅补充，感谢支持`
 * 原生支持容器的系统可见性工具 sysdig [地址](https://github.com/draios/sysdig) ![GitHub stars](https://img.shields.io/github/stars/draios/sysdig) `由「zxynull」师傅补充，感谢支持`
 * k8s 异常活动检测工具 Falco [地址](https://github.com/falcosecurity/falco) ![GitHub stars](https://img.shields.io/github/stars/falcosecurity/falco) `由「zxynull」师傅补充，感谢支持`
-* CIS 基准检测工具 kube bench [地址](https://github.com/aquasecurity/kube-bench)  ![GitHub stars](https://img.shields.io/github/stars/aquasecurity/kube-bench) `由「zhengjim」师傅补充，感谢支持`
-* k8s 集群安全漏洞发现工具 kube hunter [地址](https://github.com/aquasecurity/kube-hunter)  ![GitHub stars](https://img.shields.io/github/stars/aquasecurity/kube-hunter) `由「zhengjim」师傅补充，感谢支持`
+* CIS 基准检测工具 kube bench [地址](https://github.com/aquasecurity/kube-bench) ![GitHub stars](https://img.shields.io/github/stars/aquasecurity/kube-bench) `由「zhengjim」师傅补充，感谢支持`
+* k8s 集群安全漏洞发现工具 kube hunter [地址](https://github.com/aquasecurity/kube-hunter) ![GitHub stars](https://img.shields.io/github/stars/aquasecurity/kube-hunter) `由「zhengjim」师傅补充，感谢支持`
 * Docker 镜像扫描工具 Anchore [地址](https://github.com/anchore/syft/) ![GitHub stars](https://img.shields.io/github/stars/anchore/syft) `由「zxynull」师傅补充，感谢支持`
+* 开源的云原生安全平台 HummerRisk [地址](https://github.com/HummerRisk/HummerRisk) ![GitHub stars](https://img.shields.io/github/stars/HummerRisk/HummerRisk) `由「Ma1tobiose」师傅补充，感谢支持`
 * k8s 集群风险权限扫描工具 KubiScan [地址](https://github.com/cyberark/KubiScan) ![GitHub stars](https://img.shields.io/github/stars/cyberark/KubiScan) `由「UzJu」师傅补充，感谢支持`
 * Docker 静态分析工具 Dagda [地址](https://github.com/eliasgranderubio/dagda/) ![GitHub stars](https://img.shields.io/github/stars/eliasgranderubio/dagda) `由「zxynull」师傅补充，感谢支持`
 * k8s 安全风险检测工具 StackRox [地址](https://github.com/stackrox/stackrox) [工具介绍](https://www.stackrox.io/blog/open-source-stackrox-is-now-available/) ![GitHub stars](https://img.shields.io/github/stars/stackrox/stackrox) `由「m4d3bug」师傅补充，感谢支持`
@@ -309,6 +310,8 @@ title: 云安全资源
                     src="/img/1667370152.png"  style="width: 100px;" /><br />Kfzz1</a></td>
         <td align="center"><img alt="cr"
                     src="/img/1684313513.png"  style="width: 100px;" /><br />cr</a></td>
+        <td align="center"><img alt="Ma1tobiose"
+                    src="/img/1688880306.png"  style="width: 100px;" /><br />Ma1tobiose</a></td>
 		</tr>
 </table>
 

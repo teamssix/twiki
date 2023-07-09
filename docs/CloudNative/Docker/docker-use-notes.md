@@ -169,13 +169,15 @@ export\import 与 save\load 的区别：
 
 * export\import 是根据容器拿到的镜像，再导入时会丢失镜像所有的历史，所以无法进行回滚操作；而 save\load 的镜像，没有丢失镜像的历史，可以回滚到之前的层。
 
+核心原因是 export 是针对容器的导出，所以只有所有层组合的最终版本；而 save 则是针对镜像的，所以可以看到每一层的信息。
+
 ### 9、修改正在运行的容器端口映射
 
 a、停止容器
 
-b、 停止 docker 服务(systemctl stop docker) 
+b、 停止 docker 服务(systemctl stop docker)
 
-c、 修改这个容器的 hostconfig.json 文件中的端口（原帖有人提到，如果 config.v2.json 里面也记录了端口，也要修改） 
+c、 修改这个容器的 hostconfig.json 文件中的端口（原帖有人提到，如果 config.v2.json 里面也记录了端口，也要修改）
 
 ```
 cd /var/lib/docker/3b6ef264a040* 	# 这里是 CONTAINER ID
@@ -211,7 +213,7 @@ docker cp ID全称:容器文件路径 本地路径
 启动全新的容器，该命令会在后台运行容器，并返回容器ID
 
 ```
-docker run -d	
+docker run -d
 ```
 
 对于现有的容器
