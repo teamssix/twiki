@@ -5,6 +5,123 @@ title: 更新日志
 
 ---
 
+## 2023.7.15
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「DVKunion」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/cloudsecurityresources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>云原生实验室博客</li>
+        </ul>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>文库<a href="/" target="_blank"> 首页 </a>贡献者添加「DVKunion」师傅，感谢支持<br/>
+      </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>AWS 攻击知识库 WeirdAAL (英文)</li>
+          <li>云安全资讯（英文）</li>
+          <li>云原生实验室博客</li>
+          <li>云计算市场资讯（英文）</li>
+          <li>TeamsSix</li>
+          <li>0xd4y</li>
+          <li>Andy Robbins</li>
+          <li>Beau Bullock</li>
+          <li>Chris Farris</li>
+          <li>Christophe Tafani-Dereeper</li>
+          <li>Dirk-jan</li>
+          <li>Dr. Nestori Syynimaa</li>
+          <li>Emilien Socchi</li>
+          <li>Fabian Bader</li>
+          <li>gafnit</li>
+          <li>inversecosᵘʷᵘ</li>
+          <li>Jason Ostrom</li>
+          <li>Joosua Santasalo</li>
+          <li>Karl</li>
+          <li>Kfzz1</li>
+          <li>Liv Matan</li>
+          <li>Marco Lancini</li>
+          <li>Melvin langvik</li>
+          <li>Merill</li>
+          <li>mx7krshell</li>
+          <li>Nathan McNulty</li>
+          <li>Nick Frichette</li>
+          <li>Nikhil Mittal</li>
+          <li>Nir Ohfeld</li>
+          <li>Rhino Security Labs</li>
+          <li>Roberto Rodriguez</li>
+          <li>rootsecdev</li>
+          <li>rvrsh3ll</li>
+          <li>Ryan Hausknecht</li>
+          <li>Sami Lamppu</li>
+          <li>Sean Metcalf</li>
+          <li>Seth Art</li>
+          <li>Shir Tamari</li>
+          <li>Skyworship</li>
+          <li>Thomas Naunheim</li>
+          <li>AWS 认证解决方案架构师-助理 AWS Certified Solutions Architect – Associate</li>
+          <li>Azure 基础知识认证 Azure Fundamentals</li>
+          <li>GCP 云工程师助理 Associate Cloud Engineer</li>
+          <li>Kubernetes 认证安全专家 Certified Kubernetes Security Specialist (CKS)</li>
+          <li>阿里云专业工程师 Alibaba Cloud Certified Professional (ACP)</li>
+          <li>阿里云云计算架构师 Alibaba Cloud Certified Expert - Cloud Computing (ACE)</li>
+          <li>基础设施关系绘制工具 Cartography</li>
+          <li>适用于 AWS 和 Azure 的扫描工具 SkyArk</li>
+          <li>权限升级路径分析工具 PurplePanda</li>
+          <li>云上攻击模拟工具 Leonidas</li>
+          <li>开源的轻量级云管平台 CloudExplorer Lite</li>
+          <li>红队云操作系统 RedCloudOS/li>
+          <li>云服务枚举工具 cloud service enum</li>
+          <li>AWS 文档 GPT 工具</li>
+          <li>AWS 官方 CLI 工具</li>
+          <li>AWS 环境分析工具 CloudMapper</li>
+          <li>AWS 常见配置错误审计工具 YATAS</li>
+          <li>Route53/CloudFront 漏洞评估工具</li>
+          <li>检测多云环境中存在 dangling DNS 记录的工具 findmytakeover</li>
+          <li>Azure 官方 CLI 工具</li>
+          <li>Azure MFA 检测工具</li>
+          <li>Azure AD 和 Office 365 的 PowerShell 管理模块 AADInternals</li>
+          <li>GCP 官方 CLI 工具</li>
+          <li>GCP 资源枚举工具</li>
+          <li>GCP 攻击面资源枚举工具</li>
+          <li>GCP 资源分析工具 Hayat</li>
+          <li>GCP IAM 权限收集工具 gcp-iam-collector</li>
+          <li>Google Workspace 目录转储工具 Google Workspace Directory Dump Tool</li>
+          <li>阿里云官方 CLI 工具</li>
+          <li>腾讯云官方 CLI 工具</li>
+          <li>华为云 OBS 官方管理工具 OBS Browser+</li>
+          <li>天翼云对象存储连接工具</li>
+          <li>AWS 渗透工具集 aws-pentest-tools</li>
+          <li>AWS Lambda 密码喷洒工具 CredKing</li>
+          <li>AWS 渗透测试工具 Endgame</li>
+          <li>AWS 红队利用脚本 Redboto</li>
+          <li>AWS 域控卷影拷贝工具 CloudCopy</li>
+          <li>Azure 安全评估 PowerShell 工具包 MicroBurst</li>
+          <li>Azure AD 利用工具集 ROADtools</li>
+          <li>枚举、喷洒、渗透 O365 AAD 帐户工具 TeamFiltration</li>
+          <li>Azure JWT 令牌操作工具集 TokenTactics</li>
+          <li>Microsoft 365 安全工具箱 DCToolbox</li>
+          <li>滥用 Microsoft 365 OAuth 授权流程进行网络钓鱼攻击的概念验证脚本 Microsoft365_devicePhish</li>
+          <li>Azure AD 身份保护 Cookie 重放测试工具</li>
+          <li>GCP 利用工具集</li>
+          <li>GCP Bucket 枚举工具 GCPBucketBrute</li>
+          <li>GCP Token 复用工具</li>
+        </ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2023.7.9
 
 <p></p>
