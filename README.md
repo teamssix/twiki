@@ -1,4 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7b1638ec-faba-4311-84cd-a6c082c4d6c7/deploy-status)](https://wiki.teamssix.com) [![GitHub stars](https://img.shields.io/github/stars/teamssix/twiki)](https://github.com/teamssix/twiki) [![](https://img.shields.io/badge/T%20Wiki%20-%E4%BA%91%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86%E6%96%87%E5%BA%93-blue)](https://wiki.teamssix.com/) [![](https://img.shields.io/badge/%E7%8B%BC%E7%BB%84%E5%AE%89%E5%85%A8%E5%9B%A2%E9%98%9F-%E7%9F%A5%E8%AF%86%E6%96%87%E5%BA%93-blue)](https://wiki.wgpsec.org/) [![](https://img.shields.io/badge/PeiQi-%E7%9F%A5%E8%AF%86%E6%96%87%E5%BA%93-blue)](http://wiki.peiqi.tech/) [![Twitter](https://img.shields.io/twitter/follow/teamssix?label=Followers&style=social)](https://twitter.com/teamssix) [![img](https://img.shields.io/github/followers/TeamsSix?style=social)](https://github.com/teamssix)
+<center><h1>T Wiki 云安全知识文库</h1>
+
+[![GitHub stars](https://img.shields.io/github/stars/teamssix/twiki)](https://github.com/teamssix/twiki) [![](https://img.shields.io/badge/T%20Wiki%20-%E4%BA%91%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86%E6%96%87%E5%BA%93-blue)](https://wiki.teamssix.com/) [![](https://img.shields.io/badge/%E7%8B%BC%E7%BB%84%E5%AE%89%E5%85%A8%E5%9B%A2%E9%98%9F-%E7%9F%A5%E8%AF%86%E6%96%87%E5%BA%93-blue)](https://wiki.wgpsec.org/) [![](https://img.shields.io/badge/PeiQi-%E7%9F%A5%E8%AF%86%E6%96%87%E5%BA%93-blue)](http://wiki.peiqi.tech/) [![Twitter](https://img.shields.io/twitter/follow/teamssix?label=Followers&style=social)](https://twitter.com/teamssix) [![img](https://img.shields.io/github/followers/TeamsSix?style=social)](https://github.com/teamssix)
+
+</center>
 
 ## 前言
 
@@ -95,27 +99,31 @@ build 完之后，将 docs/.vuepress/dist 目录下的文件复制到你的 ngin
 
 ## 文库介绍
 
-首先来看文库首页，文库主要分成了三个板块，分别为`云服务`、`云原生`、`云安全资源`
+首先来看文库首页，文库主要分成了四个板块，分别为`云服务`、`云原生`、`CF 使用手册`、`云安全资源`。
 
-![](./docs/.vuepress/public/img/wiki.teamssix.com_.png)
+![](./docs/.vuepress/public/img/1689483438.png)
 
-首先来看`云安全资源`板块，这个板块是我个人觉着整个知识库较为与众不同的地方，在这里可以看到汇总的云安全资源，比如云安全相关的文章、公众号、工具、靶场等等。
+首先来看 [云安全资源](https://wiki.teamssix.com/CloudSecurityResources/) 板块，这个板块是我个人觉着整个知识库较为与众不同的地方，在这里可以看到汇总的云安全资源，比如云安全相关的文章、公众号、工具、靶场等等。
 
-![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202204152146469.png)
+![](./docs/.vuepress/public/img/1689483513.png)
 
-这部分的内容我也同步到了 Github 上单独作为一个项目，项目名称叫做 awesome-cloud-security，项目地址为：[https://github.com/teamssix/awesome-cloud-security](https://github.com/teamssix/awesome-cloud-security)
+这部分的内容我也同步到了 Github 上单独作为一个项目，项目名称叫做 awesome-cloud-security，项目地址为：[github.com/teamssix/awesome-cloud-security](https://github.com/teamssix/awesome-cloud-security)
 
 如果你知道一些比较好的云安全资源，欢迎留言补充，我会更新到这个板块中，首页的贡献者处也将出现你的身影。
 
-在`云服务`板块可以看到云服务方向的文章、笔记
+在 [云服务](https://wiki.teamssix.com/CloudService/) 板块可以看到云服务方向的文章、笔记。
 
-![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202204152147429.png)
+![](./docs/.vuepress/public/img/1689483562.png)
 
-在`云原生`板块可以看到云原生方向的文章、笔记
+在 [云原生](https://wiki.teamssix.com/CloudNative/) 板块可以看到云原生方向的文章、笔记。
 
-![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202204152147002.png)
+![](./docs/.vuepress/public/img/1689483601.png)
 
-目前文库的东西不算多，不过未来会不断更新，如果想要投稿，那么在`关于文库`中可以找到投稿的方式。
+在 [CF 使用手册](https://wiki.teamssix.com/cf/) 板块里详细记录了云环境利用框架 CF 工具的使用方法，CF 云环境利用框架工具项目地址：[github.com/teamssix/cf](https://github.com/teamssix/cf)
+
+![](./docs/.vuepress/public/img/1689483836.png)
+
+如果你想要投稿的话，那么在文库的 [一起补充](https://wiki.teamssix.com/About/Contribute.html) 处可以找到投稿的方式。
 
 ## 最后
 
