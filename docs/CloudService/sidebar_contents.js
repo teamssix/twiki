@@ -52,5 +52,11 @@ module.exports = [
         children: [
             "/CloudService/CloudFront/"
         ]
+    }, {
+        title: "更多",
+        collapsable: false,
+        children: [
+            "/CloudService/more/"
+        ]
     }
 ];

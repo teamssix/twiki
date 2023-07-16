@@ -93,6 +93,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
                     src="/img/1688880306.png"  style="width: 100px;" /><br />Ma1tobiose</a></td>
         <td align="center"><img alt="DVKunion"
                     src="/img/1689259230.png"  style="width: 100px;" /><br />DVKunion</a></td>
+        <td align="center"><img alt="曾哥"
+                    src="/img/1689483069.png"  style="width: 100px;" /><br />曾哥</a></td>
     </tr>
 </table>
 
