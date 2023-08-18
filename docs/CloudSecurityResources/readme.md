@@ -452,6 +452,8 @@ title: 云安全资源
                     src="/img/1688880306.png"  style="width: 100px;" /><br />Ma1tobiose</a></td>
         <td align="center"><img alt="DVKunion"
                     src="/img/1689259230.png"  style="width: 100px;" /><br />DVKunion</a></td>
+        <td align="center"><img alt="苏打养乐多"
+                    src="/img/1692362083.png"  style="width: 100px;" /><br />苏打养乐多</a></td>
 		</tr>
 </table>
 
