@@ -308,13 +308,16 @@ title: 云安全资源
 
 * 天翼云对象存储连接工具 [地址](https://www.ctyun.cn/document/10000101/10006768)
 
+**青云**
+
+* 青云官方 CLI 工具 [地址](https://docsv4.qingcloud.com/user_guide/development_docs/cli/install/install) `由 「苏打养乐多」师傅补充，感谢支持`
+
 #### 利用工具
 
 <br>
 
 **多云**
 
-* 云环境利用框架 CF [地址](https://github.com/teamssix/cf) ![Github stars](https://img.shields.io/github/stars/teamssix/cf) :fire:
 * 阿里云/腾讯云 AK 资源管理工具 [地址](https://github.com/wyzxxz/aksk_tool) ![Github stars](https://img.shields.io/github/stars/wyzxxz/aksk_tool) `由「Esonhugh」师傅补充，感谢支持`
 
 **AWS**

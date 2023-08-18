@@ -7,17 +7,24 @@ title: CF 云环境利用框架使用手册
 
 <p align="center">
 <img width="500" src="/img/cf.png"><br><br>
-<a href="https://github.com/teamssix/cf/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/teamssix/cf"/></a>
-<a href="https://github.com/teamssix/cf/releases"><img alt="GitHub releases" src="https://img.shields.io/github/release/teamssix/cf"/></a>
 <a href="https://github.com/teamssix/cf/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
-<a href="https://github.com/teamssix/cf/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/teamssix/cf/total?color=brightgreen"/></a>
 <a href="https://goreportcard.com/report/github.com/teamssix/cf"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/teamssix/cf"/></a>
-<a href="https://twitter.com/intent/tweet/?text=CF%2C%20an%20amazing%20cloud%20exploitation%20framework%0Ahttps%3A%2F%2Fgithub.com%2Fteamssix%2Fcf%0A%23cloud%20%23security%20%23cloudsecurity%20%23cybersecurtiy"><img alt="tweet" src="https://img.shields.io/twitter/url?url=https://github.com/teamssix/cf" /></a>
 <a href="https://twitter.com/teamssix"><img alt="Twitter" src="https://img.shields.io/twitter/follow/teamssix?label=Followers&style=social" /></a>
 <a href="https://github.com/teamssix"><img alt="Github" src="https://img.shields.io/github/followers/TeamsSix?style=social" /></a><br></br>
 </p>
 
+::: tip 通知
 
+**CF 于 2023 年 8 月 9 日转为私有仓库并在狼组安全团队内部维护，后续官方不再提供任何开源版本，CF 开源的版本号停止于 0.5.0 版本，关于各类非官方的 CF 衍生版本请大家在使用时留意是否安全。**
+
+CF 会一直维护下去，在 CF 的内部版本中会加上开源版中不方便加入的功能，如果你希望继续使用 CF 并体验到最新功能，可以采取以下任意方式：
+
+* 加入狼组安全团队。将简历发送至 `admin#wgpsec.org`，经过简历审核与团队面试后方可加入团队。
+* 以前为 CF 贡献过代码。之前为 CF 贡献过的人可直接加入，可通过 `teamssix#wgpsec.org` 与我联系。
+* 现在为 CF 贡献代码。可以将你使用 Go 编写的云环境利用代码作为附件发送到 `teamssix#wgpsec.org`，我这边审核通过后，就会把你拉到 CF 项目中，然后你再将代码提 PR 到 CF。
+
+> 发送邮件时，注意将 # 改为 @
+:::
 
 ---
 
@@ -196,24 +203,18 @@ cf upgrade
             <td align="center">
                 <a href="https://github.com/shadowabi"><img alt="shadowabi" src="/img/1688146300.jpeg" style="width: 100px;" /><br />shadowabi</a>
             </td>
+            <td align="center">
+                <a href="https://github.com/ruishawn"><img alt="ruishawn" src="/img/1692351882.jpeg" style="width: 100px;" /><br />ruishawn</a>
+            </td>
         </tr>
     </table>
 </div>
-
-<a href="https://github.com/teamssix"><img src="https://repobeats.axiom.co/api/embed/30b8de6c059cbe83fe0ba44fff91136270a39ab9.svg"></a>
 
 ## 404星链计划
 
 <img width="400" src="/img/startlink_logo.png">
 
 CF 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
-
-## 云安全交流群
-
-在 CF 中我写了加入`云安全交流群`的方法，如果你能找到的话，就可以加群哦～
-
-<div align=center><img src="https://api.star-history.com/svg?repos=teamssix/cf&type=Timeline" div align=center/></div>
-
 
 ## 注意事项
 
