@@ -53,5 +53,11 @@ module.exports = [
             "/CloudNative/APISIX/",
             "/CloudNative/APISIX/apisix-cve-2022-29266",
         ]
+    }, {
+        title: "Virtualization",
+        collapsable: false,
+        children: [
+            "/CloudNative/Virtualization/",
+        ]
     }
 ];
