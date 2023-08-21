@@ -19,11 +19,11 @@ footerWrap:
   - title: 狼组 Wiki
     link: https://wiki.wgpsec.org
   - title: PeiQi Wiki
-    link: http://wiki.peiqi.tech
+    link: https://peiqi.wgpsec.org
   - title: VuePress
     link: https://vuepress.vuejs.org
   - title: AntDocs
-    link: https://antdocs.pages.dev
+    link: https://antdocs.js.org
 - headline: 关于我
   items:
   - title: 博客
