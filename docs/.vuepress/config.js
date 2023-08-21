@@ -30,7 +30,11 @@ module.exports = {
         nav: require("./config/nav"),
         sidebar: require("./config/sidebar"),
         sidebarDepth: 0,
-        lastUpdated: '上次更新'
+        lastUpdated: '上次更新',
+        pageAnchor: {
+            isDisabled: false,
+            anchorDepth: 1
+        },
     },
     markdown: {
         lineNumbers: true

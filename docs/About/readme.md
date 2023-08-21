@@ -18,7 +18,7 @@ title: 关于文库
 
 下面这个是我的微信公众号，从 2017 年创建一直到现在，公众号里记录了我这些年的学习笔记，以后公众号会和文库同步更新，欢迎师傅赏个关注。
 
-   <div align=center><img width="600" src="/img/wechat.png"></div>
+<div align=center><img width="600" src="/img/wechat.png"></div>
 
 ## 致谢
 
@@ -26,7 +26,9 @@ title: 关于文库
 
 感谢`VuePress`和`AntDocs`，因为有这些优秀的项目，才有了这个文库。
 
-最后当然还要感谢正在看文库的你 :heart:
+最后当然还要感谢正在看文库的你，如果这个文库对你有帮助的话，欢迎 Buy me a coffee :coffee:〔´∇｀〕
+
+<div align=center><img width="400" src="/img/1692624423.jpeg"></div>
 
 <Vssue />
 
