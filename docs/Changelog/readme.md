@@ -5,6 +5,29 @@ title: 更新日志
 
 ---
 
+## 2023.8.22
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>CloudTrail 日志分析 IAM 权限工具 Cloudtrail2IAM</li>
+          <li>当 0day 和访问密钥在云上被结合利用时：应对 SugarCRM 0day 漏洞 (英文)</li>
+          <li>用于攻击 Azure Function 应用程序的 PowerShell 工具 FuncoPop</li>
+          <li>Simple Workspace ATT&CK Tool - SWAT</li>
+          <li>Simon Décosse</li>
+        </ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2023.8.21
 
 <p></p>
