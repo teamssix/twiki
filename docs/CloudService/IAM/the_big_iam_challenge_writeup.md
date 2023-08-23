@@ -97,7 +97,7 @@ aws sqs receive-message --queue-url https://queue.amazonaws.com/092297851374/wiz
 
 <img width="900" src="/img/1688698726.png"></br>
 
-这个题目告诉我们，对于 SQS 服务，应该避免允许公开接收对列的消息，避免在传输消息时造成敏感信息的泄露。
+这个题目告诉我们，对于 SQS 服务，应该避免允许公开接收队列的消息，避免在传输消息时造成敏感信息的泄露。
 
 ## 3. Enable Push Notifications
 
