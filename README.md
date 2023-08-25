@@ -94,6 +94,10 @@ build 完之后，将 docs/.vuepress/dist 目录下的文件复制到你的 ngin
         <td align="center"><img alt="R!ng0"
                     src="./docs/.vuepress/public/img/1692623031.png"  style="width: 100px;" /><br />R!ng0</a></td>
     </tr>
+    <tr>
+        <td align="center"><img alt="2h0ng"
+                    src="./docs/.vuepress/public/img/1692929184.png"  style="width: 100px;" /><br />2h0ng</a></td>
+    </tr>
 </table>
 
 [一起补充文库？](https://wiki.teamssix.com/About/Contribute.html)
