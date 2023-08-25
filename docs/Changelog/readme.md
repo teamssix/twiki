@@ -5,6 +5,44 @@ title: 更新日志
 
 ---
 
+## 2023.8.25
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>更新<a href="/CloudSecurityResources/" target="_blank"> 云安全资源 </a>板块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>支持 GUI 的 AWS、GCP 利用工具 Vajra</li>
+          <li>Raunak Parmar</li>
+          <li>AWS 创建后门的几种方法（英文）</li>
+          <li>Mystic0x1 博客（英文）</li>
+          <li>Fawaz</li>
+          <li>AWS IAM 靶场 IAM Vulnerable</li>
+        </ul>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「2h0ng」师傅补充的文库信息，感谢「2h0ng」师傅所补充的以下文章：
+        <br/>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="orange">文章补充</a-tag>《EC2 所面临的风险》<a href="/CloudService/EC2/" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>文库<a href="/" target="_blank"> 首页 </a>贡献者添加「2h0ng」师傅，感谢支持<br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.8.23
 
 <p></p>
@@ -247,8 +285,13 @@ title: 更新日志
 <template>
   <a-timeline><a-timeline-item>
       <p>
-        <a-tag color="red">收到补充</a-tag>收到「zunlongzhou」师傅补充的文库信息，感谢「zunlongzhou」师傅补充文章 <a href="/cloudnative/docker/docker-use-notes.html" target="_blank">《Docker 使用笔记》</a><br/>
+        <a-tag color="red">收到补充</a-tag>收到「zunlongzhou」师傅补充的文库信息，感谢「zunlongzhou」师傅所补充的以下文章：
+        <br/>
     </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="orange">文章补充</a-tag>《Docker 使用笔记》<a href="/cloudnative/docker/docker-use-notes.html" target="_blank">文章地址</a><br/>
+      </p>
     </a-timeline-item><a-timeline-item>
       <p>
         <a-tag color="green">文库动态</a-tag>文库<a href="/" target="_blank"> 首页 </a>贡献者添加「zunlongzhou」师傅，感谢支持<br/>
