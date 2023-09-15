@@ -33,7 +33,8 @@ module.exports = [
         children: [
             "/CloudService/RDS/",
             "/CloudService/RDS/mssql-bulk-insert",
-            "/CloudService/RDS/postgresql-ssrf"
+            "/CloudService/RDS/postgresql-ssrf",
+            "/CloudService/RDS/the-cloud-has-an-isolation-problem-postgresql-vulnerabilities"
         ]
     }, {
         title: "IAM 身份和访问管理",
