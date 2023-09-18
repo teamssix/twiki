@@ -96,6 +96,8 @@ build 完之后，将 docs/.vuepress/dist 目录下的文件复制到你的 ngin
         </td>
         <td align="center"><img alt="shadowabi" src="./docs/.vuepress/public/img/2000000015.png" style="width: 100px;" /><br />shadowabi</a>
         </td>
+        <td align="center"><img alt="宅独青年" src="/img/2000000016.png" style="width: 100px;" /><br />宅独青年</a>
+        </td>
     </tr>
 </table>
 

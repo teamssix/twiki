@@ -102,6 +102,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
         </td>
         <td align="center"><img alt="shadowabi" src="/img/2000000015.png" style="width: 100px;" /><br />shadowabi</a>
         </td>
+        <td align="center"><img alt="宅独青年" src="/img/2000000016.png" style="width: 100px;" /><br />宅独青年</a>
+        </td>
     </tr>
 </table>
 
