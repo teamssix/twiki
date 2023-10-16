@@ -2,7 +2,7 @@
 title: Docker 用户组提权
 ---
 
-<center><h1>Docker 用户组提权</h1><b>本文作者：一生热爱</b><br><br></center>
+<center><h1>Docker 用户组提权</h1><h2>本文作者：一生热爱</h2><br><br></center>
 
 ---
 
