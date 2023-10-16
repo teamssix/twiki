@@ -33,6 +33,7 @@ module.exports = [
             "/CloudNative/Kubernetes/k8s-var-log-escape",
             "/CloudNative/Kubernetes/k8s-cluster-penetration",
             "/CloudNative/Kubernetes/k8s-practical-exercise-1",
+            "/CloudNative/Kubernetes/k8s-horizontal-taints",
         ]
     }, {
         title: "Terraform",

@@ -104,6 +104,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
         </td>
         <td align="center"><img alt="宅独青年" src="/img/2000000016.png" style="width: 100px;" /><br />宅独青年</a>
         </td>
+        <td align="center"><img alt="弱鸡" src="/img/2000000017.png" style="width: 100px;" /><br />弱鸡</a>
+        </td>
     </tr>
 </table>
 

@@ -5,6 +5,56 @@ title: 更新日志
 
 ---
 
+## 2023.10.16
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「RBPi」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/cloudsecurityresources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>在线多云渗透靶场 pwnedlabs</li>
+        </ul>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「弱鸡」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/cloudsecurityresources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>云资产管理工具 cloudTools</li>
+        </ul>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「弱鸡」师傅补充的文库信息，感谢「弱鸡」师傅贡献的以下文章：
+        <br/>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《K8s 污点横向 & API Server 未授权访问 & Docker 危险挂载逃逸》<a href="/CloudNative/Kubernetes/k8s-horizontal-taints.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>文库<a href="/" target="_blank"> 首页 </a>贡献者添加「弱鸡」师傅，感谢支持<br/>
+      </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「shadowabi」师傅补充的文库信息，感谢「shadowabi」师傅贡献的以下文章：
+        <br/>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《WIZ IAM 挑战赛 Writeup by shadowabi》<a href="/CloudService/IAM/the-big-iam-challenge-writeup-by-shadowabi.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.9.18
 
 <p></p>

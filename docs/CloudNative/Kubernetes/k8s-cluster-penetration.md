@@ -2,7 +2,7 @@
 title: K8s 集群渗透
 ---
 
-<center><h1>K8s 集群渗透</h1><b>本文作者：一生热爱</b><br><br></center>
+<center><h1>K8s 集群渗透</h1><h2>本文作者：一生热爱</h2><br><br></center>
 
 ---
 
@@ -95,7 +95,7 @@ chroot /httpd_test/
 ```yaml
 apiVersion: v1
 kind: Pod                     # 类型为 Pod
-metadata:	
+metadata:
   name: nginx-pod1            # Pod 的名称
   labels:
     app: nginxlabel

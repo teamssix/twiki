@@ -45,7 +45,8 @@ module.exports = [
             "/CloudService/IAM/list-attached-user-policies",
             "/CloudService/IAM/console-takeover",
             "/CloudService/IAM/aliyun-console-takeover",
-            "/CloudService/IAM/the_big_iam_challenge_writeup"
+            "/CloudService/IAM/the_big_iam_challenge_writeup",
+            "/CloudService/IAM/the-big-iam-challenge-writeup-by-shadowabi",
         ]
     }, {
         title: "CloudFront",

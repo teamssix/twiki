@@ -2,7 +2,7 @@
 title: 内网接管 K8s 并逃逸实战
 ---
 
-<center><h1>RCE 进入内网接管 K8s 并逃逸进 xx 网</h1><b>本文作者：k.so</b><br><br></center>
+<center><h1>RCE 进入内网接管 K8s 并逃逸进 xx 网</h1><h2>本文作者：k.so</h2><br><br></center>
 
 ---
 
