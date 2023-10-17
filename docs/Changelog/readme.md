@@ -5,6 +5,22 @@ title: 更新日志
 
 ---
 
+## 2023.10.17
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>文库<a href="/" target="_blank"> 首页 </a>贡献者添加「RBPi」师傅，感谢支持<br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.10.16
 
 <p></p>

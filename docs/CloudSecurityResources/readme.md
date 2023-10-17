@@ -534,6 +534,8 @@ title: 云安全资源
         </td>
         <td align="center"><img alt="弱鸡" src="/img/2000000017.png" style="width: 100px;" /><br />弱鸡</a>
         </td>
+        <td align="center"><img alt="RBPi" src="/img/2000000021.png" style="width: 100px;" /><br />RBPi</a>
+        </td>
     </tr>
 </table>
 
