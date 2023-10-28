@@ -47,6 +47,7 @@ module.exports = [
             "/CloudService/IAM/aliyun-console-takeover",
             "/CloudService/IAM/the_big_iam_challenge_writeup",
             "/CloudService/IAM/the-big-iam-challenge-writeup-by-shadowabi",
+            "/CloudService/IAM/enum_user_and_role",
         ]
     }, {
         title: "CloudFront",

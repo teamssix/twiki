@@ -14,12 +14,6 @@ title: 关于文库
 
 如果你想一起补充这个文库，可以查看这里的说明：[补充文库说明](/About/Contribute.html)
 
-## 我的个人微信公众号
-
-下面这个是我的微信公众号，从 2017 年创建一直到现在，公众号里记录了我这些年的学习笔记，以后公众号会和文库同步更新，欢迎师傅赏个关注。
-
-<div align=center><img width="600" src="/img/wechat.png"></div>
-
 ## 致谢
 
 感谢`狼组安全团队公开知识库`和` PeiQi 文库`，是他们的文库给了我搭建的方向。
@@ -29,6 +23,12 @@ title: 关于文库
 最后当然还要感谢正在看文库的你，如果这个文库对你有帮助的话，欢迎 Buy me a coffee :coffee:〔´∇｀〕
 
 <div align=center><img width="400" src="/img/1692624423.jpeg"></div>
+
+## 我的个人微信公众号
+
+下面这个是我的微信公众号，从 2017 年创建一直到现在，公众号里记录了我这些年的学习笔记，以后公众号会和文库同步更新，欢迎师傅赏个关注。
+
+<div align=center><img width="600" src="/img/wechat.png"></div>
 
 <Vssue />
 
