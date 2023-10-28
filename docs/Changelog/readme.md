@@ -5,6 +5,22 @@ title: 更新日志
 
 ---
 
+## 2023.10.28
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《利用信任策略枚举云上用户与角色》<a href="/cloudservice/iam/enum_user_and_role.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.10.18
 
 <p></p>
