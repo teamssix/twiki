@@ -1,4 +1,4 @@
-FROM node:12.22.1
+FROM node:18.14.0
 LABEL maintainer="teamssix <https://wiki.teamssix.com>"
 COPY . /TWiki
 WORKDIR /TWiki
