@@ -18,7 +18,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: '18.14.0'
+          node-version: '12.22.1'
       - run: |
              sed -i 's/VSSUECLIENTID/${{ secrets.VSSUECLIENTID }}/g' docs/.vuepress/config.js
              sed -i 's/VSSUECLIENTSECRET/${{ secrets.VSSUECLIENTSECRET }}/g' docs/.vuepress/config.js
@@ -28,7 +28,7 @@ jobs:
              cp robots.txt docs/.vuepress/dist/
 
       - name: Deploy to netlify
-        uses: careflow/netlify-actions/cli@master
+        uses: netlify/actions/cli@master
         env:
           NETLIFY_SITE_ID: ${{ secrets.PROD_NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
