@@ -5,6 +5,35 @@ title: 更新日志
 
 ---
 
+## 2023.11.13
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「Esonhugh」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/cloudsecurityresources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>本地 AWS 环境部署工具 LocalStack</li>
+        </ul>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「Esonhugh」师傅补充的文库信息，感谢「Esonhugh」师傅贡献的以下文章：
+        <br/>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《WIZ EKS Cluster Games WP》<a href="/CloudNative/Kubernetes/wiz-eks-cluster-games-wp.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.10.28
 
 <p></p>
