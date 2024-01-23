@@ -67,6 +67,12 @@ IBM 云 (IBM Cloud) 的 Access Key 开头标识一般是 "IBM"。
 ^IBM[A-Za-z0-9]{10,40}$
 ```
 
+或者是以下规则：
+
+```css
+[a-zA-Z0-9]{8}(-[a-zA-Z0-9]{4}){3}-[a-zA-Z0-9]{12}$
+```
+
 ## Oracle Cloud
 
 Oracle云 (Oracle Cloud) 的 Access Key 开头标识一般是 "OCID"。
@@ -99,14 +105,11 @@ Oracle云 (Oracle Cloud) 的 Access Key 开头标识一般是 "OCID"。
 
 ## 华为云
 
-华为云 (Huawei Cloud) 的 Access Key 开头标识一般是 "AK"。
+华为云 (Huawei Cloud) 的 Access Key 是20个随机大写字母和数字组成，较难用正则表达式匹配。
 
 ```css
-^AK[\w\W]{10,62}$
+[A-Z0-9]{20}
 ```
-
-- Access Key ID长度为64个字符，由字母、数字和特殊字符组成。
-- Secret Access Key长度为44个字符，由字母、数字和特殊字符组成。
 
 ## 百度云
 
@@ -118,10 +121,10 @@ Oracle云 (Oracle Cloud) 的 Access Key 开头标识一般是 "OCID"。
 
 ## 京东云
 
-京东云 (JD Cloud) 的 Access Key 开头标识一般是 "AK"。
+京东云 (JD Cloud) 的 Access Key 开头标识一般是 "JDC_"。
 
 ```css
-^AK[A-Za-z0-9]{10,40}$
+^JDC_[A-Z0-9]{28,32}
 ```
 
 ## UCloud
@@ -142,10 +145,10 @@ UCloud (UCloud) 的 Access Key 开头标识一般是 "UC"
 
 ## 金山云
 
-金山云 (Kingsoft Cloud) 的 Access Key 开头标识一般是 "KS3"。
+金山云 (Kingsoft Cloud) 的 Access Key 开头标识一般是 "AKLT"。
 
 ```css
-^KS3[A-Za-z0-9]{10,40}$
+^AKLT[a-zA-Z0-9-_]{16,28}
 ```
 
 ## 联通云
