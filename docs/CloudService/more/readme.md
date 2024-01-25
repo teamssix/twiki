@@ -127,6 +127,14 @@ Oracle云 (Oracle Cloud) 的 Access Key 开头标识一般是 "OCID"。
 ^JDC_[A-Z0-9]{28,32}
 ```
 
+## 字节跳动火山引擎
+
+字节跳动火山引擎 (Volcengine) 的 Access Key 开头标识一般是 "AKLT"，长度小于256位。
+
+```css
+^AKLT[a-zA-Z0-9-_]{0,252}
+```
+
 ## UCloud
 
 UCloud (UCloud) 的 Access Key 开头标识一般是 "UC"
