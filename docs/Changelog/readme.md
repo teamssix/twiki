@@ -5,6 +5,27 @@ title: 更新日志
 
 ---
 
+## 2024.2.23
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+  <a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「Kagantua」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/cloudsecurityresources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>Cloud Security Wiki By WithSecure</li>
+        </ul>
+    </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2023.11.13
 
 <p></p>
