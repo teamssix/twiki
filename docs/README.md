@@ -112,6 +112,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
     <tr>
         <td align="center"><img alt="程皮糖别皮" src="/img/2000000022.png" style="width: 100px;" /><br />程皮糖别皮</a>
         </td>
+        <td align="center"><img alt="Kagantua" src="/img/2000000026.png" style="width: 100px;" /><br />Kagantua</a>
+        </td>
     </tr>
 </table>
 

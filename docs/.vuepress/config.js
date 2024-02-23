@@ -20,8 +20,8 @@ module.exports = {
         ]
     ],
     themeConfig: {
-        repo: 'teamssix',
-        docsRepo: 'teamssix/TWiki',
+        repo: 'teamssix/twiki',
+        docsRepo: 'teamssix/twiki',
         docsDir: 'docs',
         docsBranch: 'beta',
         editLinks: true,
