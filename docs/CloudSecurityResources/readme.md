@@ -484,6 +484,7 @@ title: 云安全资源
 
 ### 云原生靶场
 
+* WIZ K8s 靶场 WIZ K8S LAN Party [地址](https://www.k8slanparty.com/) `由「feng」师傅补充，感谢支持`
 * k8s 靶场部署工具 Kubernetes Goat [地址](https://github.com/madhuakula/kubernetes-goat) ![GitHub stars](https://img.shields.io/github/stars/madhuakula/kubernetes-goat) `由「UzJu」师傅补充，感谢支持`
 * CI/CD 靶场部署工具 [地址](https://github.com/cider-security-research/cicd-goat) ![GitHub stars](https://img.shields.io/github/stars/cider-security-research/cicd-goat) `由「Kfzz1」师傅补充，感谢支持`
 * 云原生靶场部署工具 metarget [地址](https://github.com/Metarget/metarget) ![GitHub stars](https://img.shields.io/github/stars/Metarget/metarget)
@@ -542,6 +543,10 @@ title: 云安全资源
         <td align="center"><img alt="程皮糖别皮" src="/img/2000000022.png" style="width: 100px;" /><br />程皮糖别皮</a>
         </td>
         <td align="center"><img alt="Kagantua" src="/img/2000000026.png" style="width: 100px;" /><br />Kagantua</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><img alt="feng" src="/img/2000000027.png" style="width: 100px;" /><br />feng</a>
         </td>
     </tr>
 </table>

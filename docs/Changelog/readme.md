@@ -5,6 +5,37 @@ title: 更新日志
 
 ---
 
+
+## 2024.3.26
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+  <a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「feng」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/cloudsecurityresources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>WIZ K8s 靶场 WIZ K8S LAN Party</li>
+        </ul>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「feng」师傅补充的文库信息，感谢「feng」师傅贡献的以下文章：
+        <br/>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《WIZ K8S LAN Party Writeup》<a href="/CloudNative/Kubernetes/wiz-k8s-lan-party-wp.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2024.2.23
 
 <p></p>

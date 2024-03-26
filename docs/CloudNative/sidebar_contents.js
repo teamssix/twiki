@@ -34,7 +34,8 @@ module.exports = [
             "/CloudNative/Kubernetes/k8s-cluster-penetration",
             "/CloudNative/Kubernetes/k8s-practical-exercise-1",
             "/CloudNative/Kubernetes/k8s-horizontal-taints",
-            "/CloudNative/Kubernetes/wiz-eks-cluster-games-wp"
+            "/CloudNative/Kubernetes/wiz-eks-cluster-games-wp",
+            "/CloudNative/Kubernetes/wiz-k8s-lan-party-wp"
         ]
     }, {
         title: "Terraform",
