@@ -7,9 +7,9 @@ title: LC 多云攻击面资产梳理工具
 
 <p align="center">
 <a href="https://github.com/wgpsec/lc/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-_red.svg"></a>
-<a href="https://github.com/wgpsec/lc/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://goreportcard.com/badge/github.com/wgpsec/lc"><img src="https://goreportcard.com/badge/github.com/wgpsec/lc"></a>
+<a href="https://goreportcard.com/report/github.com/wgpsec/lc"><img src="https://goreportcard.com/badge/github.com/wgpsec/lc"></a>
 <a href="https://github.com/wgpsec/lc/releases"><img src="https://img.shields.io/github/release/wgpsec/lc"></a>
+<a href="https://github.com/wgpsec/lc"><img src="https://img.shields.io/github/stars/wgpsec/lc"></a>
 <a href="https://twitter.com/teamssix"><img src="https://img.shields.io/twitter/follow/teamssix.svg?logo=twitter"></a>
 <a href="https://twitter.com/wgpsec"><img src="https://img.shields.io/twitter/follow/wgpsec.svg?logo=twitter"></a>
 </p>
