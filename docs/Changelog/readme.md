@@ -5,6 +5,22 @@ title: 更新日志
 
 ---
 
+## 2024.4.6
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+    <a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>增加<a href="/lc" target="_blank"> LC 使用手册 </a>板块
+    </p>
+    </a-timeline-item>
+    </a-timeline>
+</template>
+
 
 ## 2024.3.26
 
