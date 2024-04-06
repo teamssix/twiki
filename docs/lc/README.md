@@ -24,6 +24,8 @@ title: LC 多云攻击面资产梳理工具
 
 LC（List Cloud）是一个多云攻击面资产梳理的工具，使用 LC 可以让甲方蓝队在管理多云时快速梳理出可能暴露在公网上的资产。
 
+项目地址：[github.com/wgpsec/lc](https://github.com/wgpsec/lc)
+
 ## 功能
 
 <div align=center><img width="600" src="/img/2000000029.png"></div></br>
