@@ -9,25 +9,26 @@ title: 使用方法
 ```yaml
 > lc -h
 
-lc (list cloud) 是一个多云攻击面资产梳理工具。
+lc (list cloud) 是一个多云攻击面资产梳理工具
 
 Usage:
   lc [flags]
 
 Flags:
 配置:
-   -c, -config string  指定配置文件路径 (default "$HOME/.config/lc/config.yaml")
-   -t, -threads int    指定扫描的线程数量 (default 3)
+  -c, -config string  指定配置文件路径 (default "$HOME/.config/lc/config.yaml")
+  -t, -threads int    指定扫描的线程数量 (default 3)
 
 过滤:
-   -i, -id string[]        指定要使用的配置（以逗号分隔）
-   -p, -provider string[]  指定要使用的云服务商（以逗号分隔）
-   -ep, -exclude-private   从输出的结果中排除私有 IP
+  -i, -id string[]        指定要使用的配置（以逗号分隔）
+  -p, -provider string[]  指定要使用的云服务商（以逗号分隔）
+  -ep, -exclude-private   从输出的结果中排除私有 IP
 
 输出:
-   -o, -output string  将结果输出到指定的文件中
-   -s, -silent         只输出结果
-   -v, -version        输出工具的版本
+  -o, -output string  将结果输出到指定的文件中
+  -s, -silent         只输出结果
+  -v, -version        输出工具的版本
+  -debug              输出调试日志信息
 ```
 
 ## 使用 LC

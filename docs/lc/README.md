@@ -37,7 +37,7 @@ LC（List Cloud）是一个多云攻击面资产梳理的工具，使用 LC 可�
 
 运行截图：
 
-<div align=center><img width="600" src="/img/2000000029.png"></div></br>
+<div align=center><img width="1000" src="/img/2000000029.jpg"></div></br>
 
 
 ### 支持列出的云服务
@@ -65,9 +65,18 @@ LC（List Cloud）是一个多云攻击面资产梳理的工具，使用 LC 可�
 
 ### 方法一：使用 brew 安装
 
-```sh
+安装
+
+```bash
 brew tap wgpsec/tap
 brew install wgpsec/tap/lc
+```
+
+更新
+
+```bash
+brew update
+brew upgrade lc
 ```
 
 ### 方法二：下载二进制文件
@@ -90,18 +99,19 @@ Usage:
 
 Flags:
 配置:
-   -c, -config string  指定配置文件路径 (default "$HOME/.config/lc/config.yaml")
-   -t, -threads int    指定扫描的线程数量 (default 3)
+  -c, -config string  指定配置文件路径 (default "$HOME/.config/lc/config.yaml")
+  -t, -threads int    指定扫描的线程数量 (default 3)
 
 过滤:
-   -i, -id string[]        指定要使用的配置（以逗号分隔）
-   -p, -provider string[]  指定要使用的云服务商（以逗号分隔）
-   -ep, -exclude-private   从输出的结果中排除私有 IP
+  -i, -id string[]        指定要使用的配置（以逗号分隔）
+  -p, -provider string[]  指定要使用的云服务商（以逗号分隔）
+  -ep, -exclude-private   从输出的结果中排除私有 IP
 
 输出:
-   -o, -output string  将结果输出到指定的文件中
-   -s, -silent         只输出结果
-   -v, -version        输出工具的版本
+  -o, -output string  将结果输出到指定的文件中
+  -s, -silent         只输出结果
+  -v, -version        输出工具的版本
+  -debug              输出调试日志信息
 ```
 
 ## 简单上手
