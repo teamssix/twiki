@@ -4,7 +4,7 @@ title: 案例
 
 ## lc 和 httpx 结合使用
 
-使用 httpx 检测云资产是否能从公网访问
+使用 httpx 检测云资产是否能从公网访问。
 
 ```sh
 lc -ep -s | httpx -sc -title -silent

@@ -76,7 +76,7 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 
 # 腾讯云
 # 访问凭证获取地址：https://console.cloud.tencent.com/cam
-- provider: tencent cloud
+- provider: tencent
   id: tencent_cloud_default
   access_key:
   secret_key:
@@ -84,7 +84,7 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 
 # 华为云
 # 访问凭证获取地址：https://console.huaweicloud.com/iam
-- provider: huawei cloud
+- provider: huawei
   id: huawei_cloud_default
   access_key:
   secret_key:
@@ -92,14 +92,14 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 
 # 天翼云
 # 访问凭证获取地址：https://oos-cn.ctyun.cn/oos/ctyun/iam/dist/index.html#/certificate
-- provider: ctyun
- id: ctyun_default
+- provider: tianyi
+ id: tianyi_cloud_default
  access_key:
  secret_key:
 
 # 百度云
 # 访问凭证获取地址：https://console.bce.baidu.com/iam/
-- provider: baidu cloud
+- provider: baidu
   id: baidu_cloud_default
   access_key:
   secret_key:
@@ -107,11 +107,18 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 
 # 联通云
 # 访问凭证获取地址：https://console.cucloud.cn/console/uiam
-- provider: cu cloud
-  id: cu_cloud_default
+- provider: liantong
+  id: liantong_cloud_default
   access_key:
   secret_key:
   session_token:
+
+# 七牛云
+# 访问凭证获取地址：https://portal.qiniu.com/developer/user/key
+- provider: qiniu
+  id: qiniu_cloud_default
+  access_key:
+  secret_key:
 ```
 
 配置文件中的每个部分所表示的意思如下：
@@ -128,7 +135,7 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2024 年 4 月 6 日"
+      this.$page.lastUpdated = "2024 年 4 月 20 日"
     }
   }
 </script>
