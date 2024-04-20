@@ -4,12 +4,12 @@ title: 使用方法
 
 ## 查看帮助信息
 
-使用 -h 参看帮助信息
+使用 -h 参看帮助信息。
 
 ```yaml
 > lc -h
 
-lc (list cloud) 是一个多云攻击面资产梳理工具
+lc (list cloud) 是一个多云攻击面资产梳理工具。
 
 Usage:
   lc [flags]
@@ -32,7 +32,7 @@ Flags:
 
 ## 使用 LC
 
-直接运行 `lc` 命令来列举您的云上资产
+直接运行 `lc` 命令来列举您的云上资产。
 
 ```sh
 lc
@@ -48,7 +48,7 @@ lc
 lc -c ./config.yaml
 ```
 
-使用 `-t` 指定运行线程数量，默认是 3 个线程，不建议开太大的线程，不然结果可能会有遗漏
+使用 `-t` 指定运行线程数量，默认是 3 个线程，不建议开太大的线程，不然结果可能会有遗漏。
 
 ```sh
 lc -t 2
@@ -68,7 +68,7 @@ lc -i aliyun_default,tencent_cloud_default
 lc -p "aliyun,tencent cloud"
 ```
 
-使用 `-ep` 参数排除结果中的内网 IP
+使用 `-ep` 参数排除结果中的内网 IP。
 
 ```sh
 lc -ep
@@ -94,12 +94,18 @@ lc -s
 lc -v
 ```
 
+使用 `-debug` 参数可以查看详细输出日志。
+
+```sh
+lc -debug
+```
+
 <Vssue />
 
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2024 年 4 月 6 日"
+      this.$page.lastUpdated = "2024 年 4 月 20 日"
     }
   }
 </script>
