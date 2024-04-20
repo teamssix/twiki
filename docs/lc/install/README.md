@@ -6,9 +6,18 @@ title: 下载安装
 
 ### 方法一：HomeBrew 安装（适用于 Mac、Linux 用户）
 
+安装
+
 ```bash
 brew tap wgpsec/tap
 brew install wgpsec/tap/lc
+```
+
+更新
+
+```bash
+brew update
+brew upgrade lc
 ```
 
 ### 方法二：下载二进制包
