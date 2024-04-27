@@ -10,7 +10,7 @@ title: 案例
 lc -ep -s | httpx -sc -title -silent
 ```
 
-<div align=center><img width="600" src="/img/2000000028.png"></div></br>
+<div align=center><img width="800" src="/img/2000000028.png"></div></br>
 
 
 <Vssue />
@@ -18,7 +18,7 @@ lc -ep -s | httpx -sc -title -silent
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2024 年 4 月 6 日"
+      this.$page.lastUpdated = "2024 年 4 月 27 日"
     }
   }
 </script>

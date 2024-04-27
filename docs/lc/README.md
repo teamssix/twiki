@@ -1,10 +1,10 @@
 ﻿---
 title: LC 多云攻击面资产梳理工具
 ---
+<div align=center><img width="600" src="/img/2000000031.png"></div>
 <center><h1>LC（List Cloud）多云攻击面资产梳理工具</h1></center>
 
 ---
-
 <p align="center">
 <a href="https://github.com/wgpsec/lc/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-_red.svg"></a>
 <a href="https://goreportcard.com/report/github.com/wgpsec/lc"><img src="https://goreportcard.com/badge/github.com/wgpsec/lc"></a>
@@ -37,7 +37,7 @@ LC（List Cloud）是一个多云攻击面资产梳理的工具，使用 LC 可�
 
 运行截图：
 
-<div align=center><img width="1000" src="/img/2000000029.jpg"></div></br>
+<div align=center><img width="1000" src="/img/2000000029.png"></div></br>
 
 
 ### 支持列出的云服务
@@ -138,7 +138,7 @@ lc -ep
 lc -ep -s | httpx -sc -title -silent
 ```
 
-<div align=center><img width="600" src="/img/2000000028.png"></div></br>
+<div align=center><img width="800" src="/img/2000000028.png"></div></br>
 
 更多用法可以查看 [LC 使用手册](https://wiki.teamssix.com/lc)
 
@@ -168,11 +168,11 @@ LC 在 [MIT](https://github.com/wgpsec/lc/blob/main/LICENSE) 协议下授权使�
 
 下面这个是我的个人微信公众号，在 TeamsSix 公众号里可以与我进行联系，后续关于 LC 的动态我也会发布到我的公众号里。
 
-<div align=center><img width="500" src="/img/2000000024.png"></div></br>
+<div align=center><img width="700" src="/img/2000000024.png"></div></br>
 
 如果您感觉这个项目还不错，也欢迎扫描下面打赏码进行赞赏。
 
-<div align=center><img width="500" src="/img/2000000023.png"></div><br>
+<div align=center><img width="600" src="/img/2000000023.png"></div><br>
 
 <div align=center><b>感谢您使用我的工具</b></div>
 
@@ -181,7 +181,7 @@ LC 在 [MIT](https://github.com/wgpsec/lc/blob/main/LICENSE) 协议下授权使�
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2024 年 4 月 20 日"
+      this.$page.lastUpdated = "2024 年 4 月 27 日"
     }
   }
 </script>
