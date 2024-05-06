@@ -116,6 +116,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
         </td>
         <td align="center"><img alt="feng" src="/img/2000000027.png" style="width: 100px;" /><br />feng</a>
         </td>
+        <td align="center"><img alt="Poker" src="/img/2000000032.png" style="width: 100px;" /><br />Poker</a>
+        </td>
     </tr>
 </table>
 
