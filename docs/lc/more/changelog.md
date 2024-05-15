@@ -4,6 +4,11 @@ title: 更新日志
 
 # 更新日志
 
+## [v1.0.1](https://github.com/wgpsec/lc/releases/tag/v1.0.1) 2024.5.15
+
+* 支持列出移动云 EOS 对象存储服务
+* 修复了一个 Bug
+
 
 ## [v1.0.0](https://github.com/wgpsec/lc/releases/tag/v1.0.0) 2024.4.20
 
@@ -23,7 +28,7 @@ title: 更新日志
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2024 年 4 月 20 日"
+      this.$page.lastUpdated = "2024 年 5 月 15 日"
     }
   }
 </script>
