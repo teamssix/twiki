@@ -56,6 +56,7 @@ LC（List Cloud）是一个多云攻击面资产梳理的工具，使用 LC 可�
 | 10 | 百度云  |  BCC 云服务器  |
 | 11 | 联通云  |  OSS 对象存储  |
 | 12 | 七牛云  | Kodo 对象存储  |
+| 13 | 移动云  |  EOS 对象存储  |
 
 ## 使用手册
 
@@ -181,7 +182,7 @@ LC 在 [MIT](https://github.com/wgpsec/lc/blob/main/LICENSE) 协议下授权使�
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2024 年 4 月 27 日"
+      this.$page.lastUpdated = "2024 年 5 月 15 日"
     }
   }
 </script>
