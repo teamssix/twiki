@@ -5,6 +5,23 @@ title: 更新日志
 
 ---
 
+## 2024.6.9
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+  <a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《使用云函数限制存储桶上传类型》<a href="/CloudService/S3/limiting-bucket-upload-types-using-cloud-functions.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2024.5.6
 
 <p></p>
