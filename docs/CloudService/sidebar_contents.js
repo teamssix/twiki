@@ -13,6 +13,7 @@ module.exports = [
             "/CloudService/S3/bucket-policy-able-to-write",
             "/CloudService/S3/bucket-object-traversal",
             "/CloudService/S3/specific-bucket-policy-configuration",
+            "/CloudService/S3/limiting-bucket-upload-types-using-cloud-functions"
         ]
     },
     {
