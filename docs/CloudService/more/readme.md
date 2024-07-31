@@ -185,7 +185,7 @@ UCloud (UCloud) 的 Access Key 开头标识一般是 "UC"
 
 ## 一云通
 
-一云通 (Yonyou Cloud) 的 Access Key 开头标识一般是 "YYT"。
+一云通 (YiYunTong Cloud) 的 Access Key 开头标识一般是 "YYT"。
 
 ```css
 ^YYT[A-Za-z0-9]{10,60}$
