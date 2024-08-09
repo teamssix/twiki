@@ -120,6 +120,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
         </td>
         <td align="center"><img alt="Yaney" src="/img/2000000040.png" style="width: 100px;" /><br />Yaney</a>
         </td>
+        <td align="center"><img alt="CC11001100" src="/img/2000000041.png" style="width: 100px;" /><br />CC11001100</a>
+        </td>
     </tr>
 </table>
 

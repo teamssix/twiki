@@ -5,6 +5,27 @@ title: 更新日志
 
 ---
 
+## 2024.8.9
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+  <a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「CC11001100」师傅为文库提交的 PR，感谢支持<br/>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>文库<a href="/" target="_blank"> 首页 </a>贡献者添加「CC11001100」师傅，感谢支持<br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2024.7.4
 
 <p></p>
