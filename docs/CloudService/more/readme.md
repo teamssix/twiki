@@ -220,7 +220,7 @@ G-Core Labs 的 Access Key 开头标识一般是 "gcore"
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2023 年 7 月 16 日"
+      this.$page.lastUpdated = "2024 年 8 月 9 日"
     }
   }
 </script>
