@@ -2,7 +2,6 @@ module.exports = {
     title: 'T Wiki',
     description: '面向云安全方向的知识文库',
     theme: 'antdocs',
-    backToTop: true,
     head: [
         [
             'link', { rel: 'icon', href: '/img/favicon.ico' }
@@ -20,7 +19,7 @@ module.exports = {
         ]
     ],
     themeConfig: {
-        repo: 'teamssix/twiki',
+        backToTop: true,
         docsRepo: 'teamssix/twiki',
         docsDir: 'docs',
         docsBranch: 'beta',
@@ -28,12 +27,13 @@ module.exports = {
         editLinkText: '编辑这个页面 ~',
         logo: '/img/logo.svg',
         nav: require("./config/nav"),
+        repo: 'teamssix/twiki',
         sidebar: require("./config/sidebar"),
         sidebarDepth: 0,
         lastUpdated: '上次更新',
         pageAnchor: {
             isDisabled: false,
-            anchorDepth: 1
+            anchorDepth: 2
         },
         ads: {
             style: 2,

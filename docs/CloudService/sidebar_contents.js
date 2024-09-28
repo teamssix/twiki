@@ -49,6 +49,7 @@ module.exports = [
             "/CloudService/IAM/the_big_iam_challenge_writeup",
             "/CloudService/IAM/the-big-iam-challenge-writeup-by-shadowabi",
             "/CloudService/IAM/enum_user_and_role",
+            "/CloudService/IAM/azure_ad_pentest",
         ]
     }, {
         title: "CloudFront",

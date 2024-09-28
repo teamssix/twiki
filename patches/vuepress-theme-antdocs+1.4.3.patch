@@ -1,0 +1,13 @@
+diff --git a/node_modules/vuepress-theme-antdocs/components/PageAnchor.vue b/node_modules/vuepress-theme-antdocs/components/PageAnchor.vue
+index b09c5d1..06827bc 100644
+--- a/node_modules/vuepress-theme-antdocs/components/PageAnchor.vue
++++ b/node_modules/vuepress-theme-antdocs/components/PageAnchor.vue
+@@ -145,7 +145,7 @@ export default {
+ 
+   .page-anchor-offset {
+     padding-left: 6px;
+-    max-height: 15rem;
++    max-height: calc(100vh - 120px);
+     overflow-y: auto;
+   }
+ }

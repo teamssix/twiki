@@ -40,7 +40,7 @@ pacu 工具里包含了很多 AWS 利用模块，首先使用 set_keys 命令将
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2022年4月15日"
+      this.$page.lastUpdated = "2022 年 4 月 15 日"
     }
   }
 </script>
