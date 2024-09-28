@@ -13,10 +13,11 @@
         "vuepress-plugin-rss-feed": "^1.0.1"
     },
     "scripts": {
+        "docs:init": "yarn add patch-package",
+        "postinstall": "yarn patch-package",
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs",
-        "deploy-gh": "GH=1 yarn docs:build && bash deploy-gh.sh",
-        "postinstall": "patch-package"
+        "deploy-gh": "GH=1 yarn docs:build && bash deploy-gh.sh"
     },
     "dependencies": {
         "@vssue/api-github-v3": "^1.4.7",
