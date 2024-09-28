@@ -8,10 +8,10 @@
     "license": "MIT",
     "devDependencies": {
         "@vuepress/plugin-google-analytics": "^1.9.7",
+        "patch-package": "^6.5.1",
         "vuepress": "^1.9.7",
         "vuepress-plugin-auto-sidebar": "^2.3.2",
-        "vuepress-plugin-rss-feed": "^1.0.1",
-        "patch-package": "^8.0.0"
+        "vuepress-plugin-rss-feed": "^1.0.1"
     },
     "scripts": {
         "postinstall": "patch-package",
