@@ -10,11 +10,11 @@
         "@vuepress/plugin-google-analytics": "^1.9.7",
         "vuepress": "^1.9.7",
         "vuepress-plugin-auto-sidebar": "^2.3.2",
-        "vuepress-plugin-rss-feed": "^1.0.1"
+        "vuepress-plugin-rss-feed": "^1.0.1",
+        "patch-package": "^8.0.0"
     },
     "scripts": {
-        "docs:init": "yarn add patch-package",
-        "postinstall": "yarn patch-package",
+        "postinstall": "patch-package",
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs",
         "deploy-gh": "GH=1 yarn docs:build && bash deploy-gh.sh"
