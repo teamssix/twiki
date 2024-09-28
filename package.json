@@ -15,7 +15,8 @@
     "scripts": {
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs",
-        "deploy-gh": "GH=1 yarn docs:build && bash deploy-gh.sh"
+        "deploy-gh": "GH=1 yarn docs:build && bash deploy-gh.sh",
+        "postinstall": "patch-package"
     },
     "dependencies": {
         "@vssue/api-github-v3": "^1.4.7",
