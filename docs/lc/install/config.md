@@ -70,6 +70,7 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 # 访问凭证获取地址：https://ram.console.aliyun.com
 - provider: aliyun
   id: aliyun_default
+  cloud_services: ecs,oss,rds,fc,domain
   access_key:
   secret_key:
   session_token:
@@ -78,6 +79,7 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 # 访问凭证获取地址：https://console.cloud.tencent.com/cam
 - provider: tencent
   id: tencent_cloud_default
+  cloud_services: cvm,lh,cos
   access_key:
   secret_key:
   session_token:
@@ -86,6 +88,7 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 # 访问凭证获取地址：https://console.huaweicloud.com/iam
 - provider: huawei
   id: huawei_cloud_default
+  cloud_services: obs
   access_key:
   secret_key:
   session_token:
@@ -93,14 +96,16 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 # 天翼云
 # 访问凭证获取地址：https://oos-cn.ctyun.cn/oos/ctyun/iam/dist/index.html#/certificate
 - provider: tianyi
- id: tianyi_cloud_default
- access_key:
- secret_key:
+  id: tianyi_cloud_default
+  cloud_services: oos
+  access_key:
+  secret_key:
 
 # 百度云
 # 访问凭证获取地址：https://console.bce.baidu.com/iam/
 - provider: baidu
   id: baidu_cloud_default
+  cloud_services: bos,bcc
   access_key:
   secret_key:
   session_token:
@@ -109,6 +114,7 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 # 访问凭证获取地址：https://console.cucloud.cn/console/uiam
 - provider: liantong
   id: liantong_cloud_default
+  cloud_services: oss
   access_key:
   secret_key:
   session_token:
@@ -117,8 +123,18 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 # 访问凭证获取地址：https://portal.qiniu.com/developer/user/key
 - provider: qiniu
   id: qiniu_cloud_default
+  cloud_services: kodo
   access_key:
   secret_key:
+
+# 移动云
+# 访问凭证获取地址：https://console.ecloud.10086.cn/api/page/eos-console-web/CIDC-RP-00/eos/key
+- provider: yidong
+  id: yidong_cloud_default
+  cloud_services: eos
+  access_key:
+  secret_key:
+  session_token:
 ```
 
 配置文件中的每个部分所表示的意思如下：
@@ -135,7 +151,7 @@ set ALIYUNSECRETKEY="xxxxxxxx"
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2024 年 4 月 20 日"
+      this.$page.lastUpdated = "2024 年 10 月 6 日"
     }
   }
 </script>
