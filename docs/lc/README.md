@@ -42,21 +42,23 @@ LC（List Cloud）是一个多云攻击面资产梳理的工具，使用 LC 可�
 
 ### 支持列出的云服务
 
-| 序号 | 云服务商 |    服务名称    |
-|:--:|:----:|:----------:|
-| 1  | 阿里云  |  ECS 云服务器  |
-| 2  | 阿里云  |  OSS 对象存储  |
-| 3  | 阿里云  |  RDS 数据库   |
-| 4  | 腾讯云  |  CVM 云服务器  |
-| 5  | 腾讯云  | LH 轻量应用服务器 |
-| 6  | 腾讯云  |  COS 对象存储  |
-| 7  | 华为云  |  OBS 对象存储  |
-| 8  | 天翼云  |  OOS 对象存储  |
-| 9  | 百度云  |  BOS 对象存储  |
-| 10 | 百度云  |  BCC 云服务器  |
-| 11 | 联通云  |  OSS 对象存储  |
-| 12 | 七牛云  | Kodo 对象存储  |
-| 13 | 移动云  |  EOS 对象存储  |
+| 序号 | 云服务商 |    服务名称     |
+|:--:|:----:|:-----------:|
+| 1  | 阿里云  |  ECS 云服务器   |
+| 2  | 阿里云  |  OSS 对象存储   |
+| 3  | 阿里云  |   RDS 数据库   |
+| 4  | 阿里云  |   FC 函数计算   |
+| 5  | 阿里云  | Domain 域名服务 |
+| 6  | 腾讯云  |  CVM 云服务器   |
+| 7  | 腾讯云  | LH 轻量应用服务器  |
+| 8  | 腾讯云  |  COS 对象存储   |
+| 9  | 华为云  |  OBS 对象存储   |
+| 10 | 天翼云  |  OOS 对象存储   |
+| 11 | 百度云  |  BOS 对象存储   |
+| 12 | 百度云  |  BCC 云服务器   |
+| 13 | 联通云  |  OSS 对象存储   |
+| 14 | 七牛云  |  Kodo 对象存储  |
+| 15 | 移动云  |  EOS 对象存储   |
 
 ## 使用手册
 
@@ -104,6 +106,7 @@ Flags:
   -t, -threads int    指定扫描的线程数量 (default 3)
 
 过滤:
+  -cs, -cloud-services string[]  指定要列出的服务 (default ["all"])
   -i, -id string[]        指定要使用的配置（以逗号分隔）
   -p, -provider string[]  指定要使用的云服务商（以逗号分隔）
   -ep, -exclude-private   从输出的结果中排除私有 IP
@@ -147,6 +150,22 @@ lc -ep -s | httpx -sc -title -silent
 
 十分欢迎各位师傅为 LC 项目贡献代码，如果您想为该项目贡献代码，请参见贡献说明：[CONTRIBUTING](https://github.com/wgpsec/lc/blob/main/CONTRIBUTING.md)
 
+<div align=center>
+    <table>
+        <tr>
+            <td align="center">
+                <a href="https://github.com/teamssix"><img alt="TeamsSix" src="/img/49087564.jpeg" style="width: 100px;" /><br />TeamsSix</a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/ShuBo6"><img alt="ShuBo6" src="/img/41125338.png" style="width: 100px;" /><br />ShuBo6</a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/tarihub"><img alt="tari" src="/img/39155974.jpeg" style="width: 100px;" /><br />tari</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
 ## 致谢
 
 十分感谢 [projectdiscovery](https://github.com/projectdiscovery) 的 [cloudlist](https://github.com/projectdiscovery/cloudlist) 项目以及 projectdiscovery 团队的开源精神，得益于 cloudlist 的 MIT 协议，这为本项目起到了非常大的帮助。
@@ -182,7 +201,7 @@ LC 在 [MIT](https://github.com/wgpsec/lc/blob/main/LICENSE) 协议下授权使�
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2024 年 5 月 15 日"
+      this.$page.lastUpdated = "2024 年 10 月 6 日"
     }
   }
 </script>

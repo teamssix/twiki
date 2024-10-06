@@ -20,6 +20,7 @@ Flags:
   -t, -threads int    指定扫描的线程数量 (default 3)
 
 过滤:
+  -cs, -cloud-services string[]  指定要列出的服务 (default ["all"])
   -i, -id string[]        指定要使用的配置（以逗号分隔）
   -p, -provider string[]  指定要使用的云服务商（以逗号分隔）
   -ep, -exclude-private   从输出的结果中排除私有 IP
@@ -56,6 +57,14 @@ lc -t 2
 ```
 
 ### 过滤
+
+使用 `-cs` 指定要列出的云服务，可以结合其他参数组合使用，例如指定某个云下的某个云服务。
+
+> 在不指定 `-cs` 参数时，会读取配置文件里的云服务列表；如果指定了 `-cs` 参数，那么会以这个参数配置优先。
+
+```sh
+lc -cs oss
+```
 
 使用 `-i` 指定要使用的配置，支持一次指定多个，以逗号分隔。
 
@@ -106,7 +115,7 @@ lc -debug
 <script>
 export default {
     mounted () {
-      this.$page.lastUpdated = "2024 年 4 月 20 日"
+      this.$page.lastUpdated = "2024 年 10 月 6 日"
     }
   }
 </script>
