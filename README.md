@@ -120,6 +120,8 @@ build 完之后，将 docs/.vuepress/dist 目录下的文件复制到你的 ngin
     <tr>
         <td align="center"><img alt="毅种循环" src="./docs/.vuepress/public/img/2000000042.png" style="width: 100px;" /><br />毅种循环</a>
         </td>
+        <td align="center"><img alt="glan" src="./docs/.vuepress/public/img/2000000043.png" style="width: 100px;" /><br />glan</a>
+        </td>
     </tr>
 </table>
 
