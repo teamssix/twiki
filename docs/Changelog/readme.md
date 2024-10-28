@@ -5,6 +5,30 @@ title: 更新日志
 
 ---
 
+## 2024.10.28
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+  <a-timeline-item>
+      <p>
+        <a-tag color="red">收到补充</a-tag>收到「glan」师傅补充的文库信息，感谢支持，补充内容详情请见<a href="/cloudsecurityresources/" target="_blank"> 云安全资源 </a>版块，补充信息摘要如下：<br/>
+      <br/>
+        <ul>
+          <li>Bypass</li>
+        </ul>
+    </p>
+    </a-timeline-item><a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>文库<a href="/" target="_blank"> 首页 </a>贡献者添加「glan」师傅，感谢支持<br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
 ## 2024.9.28
 
 <p></p>

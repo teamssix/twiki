@@ -126,6 +126,8 @@ footer: Copyright © 2022 TeamsSix <a rel="license" href="http://creativecommons
     <tr>
         <td align="center"><img alt="毅种循环" src="/img/2000000042.png" style="width: 100px;" /><br />毅种循环</a>
         </td>
+        <td align="center"><img alt="glan" src="/img/2000000043.png" style="width: 100px;" /><br />glan</a>
+        </td>
     </tr>
 </table>
 
