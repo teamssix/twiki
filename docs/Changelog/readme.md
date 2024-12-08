@@ -5,6 +5,23 @@ title: 更新日志
 
 ---
 
+## 2024.12.8
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+  <a-timeline-item>
+      <p>
+         <a-tag color="blue">新增文章</a-tag>《使用云访问凭证蜜标及时发现入侵行为》<a href="/CloudService/more/use-honeytokens-to-discover-attackers.html" target="_blank">文章地址</a><br/>
+      </p>
+    </a-timeline-item>
+   </a-timeline>
+</template>
+
+
 ## 2024.10.28
 
 <p></p>

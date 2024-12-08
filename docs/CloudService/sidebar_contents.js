@@ -61,7 +61,8 @@ module.exports = [
         title: "更多",
         collapsable: false,
         children: [
-            "/CloudService/more/"
+            "/CloudService/more/",
+            "/CloudService/more/use-honeytokens-to-discover-attackers"
         ]
     }
 ];
