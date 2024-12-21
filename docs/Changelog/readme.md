@@ -5,6 +5,23 @@ title: 更新日志
 
 ---
 
+## 2024.12.21
+
+<p></p>
+
+<br>
+
+<template>
+  <a-timeline>
+    <a-timeline-item>
+      <p>
+        <a-tag color="green">文库动态</a-tag>增加<a href="/cloudsword" target="_blank"> 云鉴使用手册 </a>板块
+    </p>
+    </a-timeline-item>
+    </a-timeline>
+</template>
+
+
 ## 2024.12.8
 
 <p></p>
